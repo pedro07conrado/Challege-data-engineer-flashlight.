@@ -33,7 +33,7 @@ airflow/ \
 Conecta ao banco de dados PostgreSQL e extrai dados das tabelas especificadas. \
 Salva os dados extraídos como arquivos CSV no diretório airflow/data/postgres.
 
-- **Extração de Dados do CSV:**
+- **Extração de Dados do CSV**
 
 - **Transformação e Salvamento de Dados:**
 Lê os dados extraídos do PostgreSQL e do arquivo CSV. \

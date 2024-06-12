@@ -1,0 +1,32 @@
+[2024-06-08T20:26:45.569-0300] {processor.py:161} INFO - Started process (PID=8797) to work on /home/pedro/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-06-08T20:26:45.570-0300] {processor.py:830} INFO - Processing file /home/pedro/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2024-06-08T20:26:45.571-0300] {logging_mixin.py:188} INFO - [2024-06-08T20:26:45.570-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-06-08T20:26:45.577-0300] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/pedro/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-06-08T20:26:45.635-0300] {logging_mixin.py:188} INFO - [2024-06-08T20:26:45.635-0300] {override.py:1829} INFO - Created Permission View: can read on DAG:example_dynamic_task_mapping
+[2024-06-08T20:26:45.645-0300] {logging_mixin.py:188} INFO - [2024-06-08T20:26:45.645-0300] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_dynamic_task_mapping
+[2024-06-08T20:26:45.653-0300] {logging_mixin.py:188} INFO - [2024-06-08T20:26:45.653-0300] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_dynamic_task_mapping
+[2024-06-08T20:26:45.653-0300] {logging_mixin.py:188} INFO - [2024-06-08T20:26:45.653-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-08T20:26:45.659-0300] {logging_mixin.py:188} INFO - [2024-06-08T20:26:45.659-0300] {dag.py:3118} INFO - Creating ORM DAG for example_dynamic_task_mapping
+[2024-06-08T20:26:45.664-0300] {logging_mixin.py:188} INFO - [2024-06-08T20:26:45.664-0300] {dag.py:3954} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2024-06-08T20:26:45.677-0300] {processor.py:183} INFO - Processing /home/pedro/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.119 seconds
+[2024-06-08T20:27:55.457-0300] {processor.py:161} INFO - Started process (PID=9812) to work on /home/pedro/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-06-08T20:27:55.460-0300] {processor.py:830} INFO - Processing file /home/pedro/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2024-06-08T20:27:55.461-0300] {logging_mixin.py:188} INFO - [2024-06-08T20:27:55.461-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-06-08T20:27:55.469-0300] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/pedro/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-06-08T20:27:55.478-0300] {logging_mixin.py:188} INFO - [2024-06-08T20:27:55.478-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-08T20:27:55.487-0300] {logging_mixin.py:188} INFO - [2024-06-08T20:27:55.487-0300] {dag.py:3954} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2024-06-08T20:27:55.503-0300] {processor.py:183} INFO - Processing /home/pedro/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.052 seconds
+[2024-06-08T20:28:58.329-0300] {processor.py:161} INFO - Started process (PID=10193) to work on /home/pedro/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-06-08T20:28:58.332-0300] {processor.py:830} INFO - Processing file /home/pedro/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2024-06-08T20:28:58.333-0300] {logging_mixin.py:188} INFO - [2024-06-08T20:28:58.333-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-06-08T20:28:58.341-0300] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/pedro/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-06-08T20:28:58.350-0300] {logging_mixin.py:188} INFO - [2024-06-08T20:28:58.349-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-08T20:28:58.359-0300] {logging_mixin.py:188} INFO - [2024-06-08T20:28:58.359-0300] {dag.py:3954} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2024-06-08T20:28:58.375-0300] {processor.py:183} INFO - Processing /home/pedro/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.051 seconds
+[2024-06-08T20:29:58.686-0300] {processor.py:161} INFO - Started process (PID=11487) to work on /home/pedro/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-06-08T20:29:58.688-0300] {processor.py:830} INFO - Processing file /home/pedro/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2024-06-08T20:29:58.689-0300] {logging_mixin.py:188} INFO - [2024-06-08T20:29:58.689-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-06-08T20:29:58.695-0300] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/pedro/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-06-08T20:29:58.703-0300] {logging_mixin.py:188} INFO - [2024-06-08T20:29:58.703-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-08T20:29:58.713-0300] {logging_mixin.py:188} INFO - [2024-06-08T20:29:58.713-0300] {dag.py:3954} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2024-06-08T20:29:58.728-0300] {processor.py:183} INFO - Processing /home/pedro/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.051 seconds

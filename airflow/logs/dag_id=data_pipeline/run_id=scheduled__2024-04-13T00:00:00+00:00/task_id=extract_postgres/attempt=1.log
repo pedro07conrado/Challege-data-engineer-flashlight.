@@ -1,0 +1,303 @@
+[2024-06-10T15:19:28.826-0300] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-10T15:19:28.835-0300] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: data_pipeline.extract_postgres scheduled__2024-04-13T00:00:00+00:00 [queued]>
+[2024-06-10T15:19:28.838-0300] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: data_pipeline.extract_postgres scheduled__2024-04-13T00:00:00+00:00 [queued]>
+[2024-06-10T15:19:28.838-0300] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-06-10T15:19:28.848-0300] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): extract_postgres> on 2024-04-13 00:00:00+00:00
+[2024-06-10T15:19:28.850-0300] {standard_task_runner.py:63} INFO - Started process 6775 to run task
+[2024-06-10T15:19:28.852-0300] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'data_pipeline', 'extract_postgres', 'scheduled__2024-04-13T00:00:00+00:00', '--job-id', '1013', '--raw', '--subdir', 'DAGS_FOLDER/dag_extracao_daily.py', '--cfg-path', '/tmp/tmph175c1uq']
+[2024-06-10T15:19:28.852-0300] {standard_task_runner.py:91} INFO - Job 1013: Subtask extract_postgres
+[2024-06-10T15:19:28.872-0300] {task_command.py:426} INFO - Running <TaskInstance: data_pipeline.extract_postgres scheduled__2024-04-13T00:00:00+00:00 [running]> on host Pedro-Conrado
+[2024-06-10T15:19:28.911-0300] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='data_pipeline' AIRFLOW_CTX_TASK_ID='extract_postgres' AIRFLOW_CTX_EXECUTION_DATE='2024-04-13T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-04-13T00:00:00+00:00'
+[2024-06-10T15:19:28.911-0300] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-10T15:19:28.912-0300] {logging_mixin.py:188} INFO - Oi
+[2024-06-10T15:19:28.919-0300] {logging_mixin.py:188} INFO - [('us_states',), ('customers',), ('orders',), ('employees',), ('shippers',), ('categories',), ('products',), ('suppliers',), ('region',), ('territories',), ('employee_territories',), ('customer_demographics',), ('customer_customer_demo',)]
+[2024-06-10T15:19:28.922-0300] {logging_mixin.py:188} WARNING - /home/pedro/airflow/dags/dag_extracao_daily.py:38 UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+[2024-06-10T15:19:28.928-0300] {logging_mixin.py:188} INFO -     state_id            state_name state_abbr state_region
+0          1               Alabama         AL        south
+1          2                Alaska         AK        north
+2          3               Arizona         AZ         west
+3          4              Arkansas         AR        south
+4          5            California         CA         west
+5          6              Colorado         CO         west
+6          7           Connecticut         CT         east
+7          8              Delaware         DE         east
+8          9  District of Columbia         DC         east
+9         10               Florida         FL        south
+10        11               Georgia         GA        south
+11        12                Hawaii         HI         west
+12        13                 Idaho         ID      midwest
+13        14              Illinois         IL      midwest
+14        15               Indiana         IN      midwest
+15        16                  Iowa         IO      midwest
+16        17                Kansas         KS      midwest
+17        18              Kentucky         KY        south
+18        19             Louisiana         LA        south
+19        20                 Maine         ME        north
+20        21              Maryland         MD         east
+21        22         Massachusetts         MA        north
+22        23              Michigan         MI        north
+23        24             Minnesota         MN        north
+24        25           Mississippi         MS        south
+25        26              Missouri         MO        south
+26        27               Montana         MT         west
+27        28              Nebraska         NE      midwest
+28        29                Nevada         NV         west
+29        30         New Hampshire         NH         east
+30        31            New Jersey         NJ         east
+31        32            New Mexico         NM         west
+32        33              New York         NY         east
+33        34        North Carolina         NC         east
+34        35          North Dakota         ND      midwest
+35        36                  Ohio         OH      midwest
+36        37              Oklahoma         OK      midwest
+37        38                Oregon         OR         west
+38        39          Pennsylvania         PA         east
+39        40          Rhode Island         RI         east
+40        41        South Carolina         SC         east
+41        42          South Dakota         SD      midwest
+42        43             Tennessee         TN      midwest
+43        44                 Texas         TX         west
+44        45                  Utah         UT         west
+45        46               Vermont         VT         east
+46        47              Virginia         VA         east
+47        48            Washington         WA         west
+48        49         West Virginia         WV        south
+49        50             Wisconsin         WI      midwest
+50        51               Wyoming         WY         west
+[2024-06-10T15:19:28.930-0300] {logging_mixin.py:188} WARNING - /home/pedro/airflow/dags/dag_extracao_daily.py:38 UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+[2024-06-10T15:19:28.938-0300] {logging_mixin.py:188} INFO -    customer_id  ...             fax
+0        ALFKI  ...     030-0076545
+1        ANATR  ...    (5) 555-3745
+2        ANTON  ...            None
+3        AROUT  ...  (171) 555-6750
+4        BERGS  ...   0921-12 34 67
+..         ...  ...             ...
+86       WARTH  ...      981-443655
+87       WELLI  ...            None
+88       WHITC  ...  (206) 555-4115
+89       WILMK  ...     90-224 8858
+90       WOLZA  ...   (26) 642-7012
+
+[91 rows x 11 columns]
+[2024-06-10T15:19:28.939-0300] {logging_mixin.py:188} WARNING - /home/pedro/airflow/dags/dag_extracao_daily.py:38 UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+[2024-06-10T15:19:28.950-0300] {logging_mixin.py:188} INFO -      order_id customer_id  ...  ship_postal_code ship_country
+0       10248       VINET  ...             51100       France
+1       10249       TOMSP  ...             44087      Germany
+2       10250       HANAR  ...         05454-876       Brazil
+3       10251       VICTE  ...             69004       France
+4       10252       SUPRD  ...            B-6000      Belgium
+..        ...         ...  ...               ...          ...
+825     11073       PERIC  ...             05033       Mexico
+826     11074       SIMOB  ...              1734      Denmark
+827     11075       RICSU  ...              1204  Switzerland
+828     11076       BONAP  ...             13008       France
+829     11077       RATTC  ...             87110          USA
+
+[830 rows x 14 columns]
+[2024-06-10T15:19:28.955-0300] {logging_mixin.py:188} WARNING - /home/pedro/airflow/dags/dag_extracao_daily.py:38 UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+[2024-06-10T15:19:28.966-0300] {logging_mixin.py:188} INFO -    employee_id  last_name  ... reports_to                              photo_path
+0            1    Davolio  ...        2.0    http://accweb/emmployees/davolio.bmp
+1            2     Fuller  ...        NaN     http://accweb/emmployees/fuller.bmp
+2            3  Leverling  ...        2.0  http://accweb/emmployees/leverling.bmp
+3            4    Peacock  ...        2.0    http://accweb/emmployees/peacock.bmp
+4            5   Buchanan  ...        2.0   http://accweb/emmployees/buchanan.bmp
+5            6     Suyama  ...        5.0    http://accweb/emmployees/davolio.bmp
+6            7       King  ...        5.0    http://accweb/emmployees/davolio.bmp
+7            8   Callahan  ...        2.0    http://accweb/emmployees/davolio.bmp
+8            9  Dodsworth  ...        5.0    http://accweb/emmployees/davolio.bmp
+
+[9 rows x 18 columns]
+[2024-06-10T15:19:28.968-0300] {logging_mixin.py:188} WARNING - /home/pedro/airflow/dags/dag_extracao_daily.py:38 UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+[2024-06-10T15:19:28.971-0300] {logging_mixin.py:188} INFO -    shipper_id       company_name           phone
+0           1     Speedy Express  (503) 555-9831
+1           2     United Package  (503) 555-3199
+2           3   Federal Shipping  (503) 555-9931
+3           4  Alliance Shippers  1-800-222-0451
+4           5                UPS  1-800-782-7892
+5           6                DHL  1-800-225-5345
+[2024-06-10T15:19:28.972-0300] {logging_mixin.py:188} WARNING - /home/pedro/airflow/dags/dag_extracao_daily.py:38 UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+[2024-06-10T15:19:28.976-0300] {logging_mixin.py:188} INFO -    category_id  ... picture
+0            1  ...      []
+1            2  ...      []
+2            3  ...      []
+3            4  ...      []
+4            5  ...      []
+5            6  ...      []
+6            7  ...      []
+7            8  ...      []
+
+[8 rows x 4 columns]
+[2024-06-10T15:19:28.977-0300] {logging_mixin.py:188} WARNING - /home/pedro/airflow/dags/dag_extracao_daily.py:38 UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+[2024-06-10T15:19:28.984-0300] {logging_mixin.py:188} INFO -     product_id                     product_name  ...  reorder_level  discontinued
+0            1                             Chai  ...             10             1
+1            2                            Chang  ...             25             1
+2            3                    Aniseed Syrup  ...             25             0
+3            4     Chef Anton's Cajun Seasoning  ...              0             0
+4            5           Chef Anton's Gumbo Mix  ...              0             1
+..         ...                              ...  ...            ...           ...
+72          73                       Röd Kaviar  ...              5             0
+73          74                    Longlife Tofu  ...              5             0
+74          75             Rhönbräu Klosterbier  ...             25             0
+75          76                     Lakkalikööri  ...             20             0
+76          77  Original Frankfurter grüne Soße  ...             15             0
+
+[77 rows x 10 columns]
+[2024-06-10T15:19:28.986-0300] {logging_mixin.py:188} WARNING - /home/pedro/airflow/dags/dag_extracao_daily.py:38 UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+[2024-06-10T15:19:28.993-0300] {logging_mixin.py:188} INFO -     supplier_id  ...                                           homepage
+0             1  ...                                               None
+1             2  ...                                        #CAJUN.HTM#
+2             3  ...                                               None
+3             4  ...                                               None
+4             5  ...                                               None
+5             6  ...  Mayumi's (on the World Wide Web)#http://www.mi...
+6             7  ...                                               None
+7             8  ...                                               None
+8             9  ...                                               None
+9            10  ...                                               None
+10           11  ...                                               None
+11           12  ...  Plutzer (on the World Wide Web)#http://www.mic...
+12           13  ...                                               None
+13           14  ...                                     #FORMAGGI.HTM#
+14           15  ...                                               None
+15           16  ...                                               None
+16           17  ...                                               None
+17           18  ...                                               None
+18           19  ...                                               None
+19           20  ...                                               None
+20           21  ...                                               None
+21           22  ...                                               None
+22           23  ...                                               None
+23           24  ...  G'day Mate (on the World Wide Web)#http://www....
+24           25  ...                                               None
+25           26  ...                                               None
+26           27  ...                                               None
+27           28  ...                                               None
+28           29  ...                                               None
+
+[29 rows x 12 columns]
+[2024-06-10T15:19:28.994-0300] {logging_mixin.py:188} WARNING - /home/pedro/airflow/dags/dag_extracao_daily.py:38 UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+[2024-06-10T15:19:28.997-0300] {logging_mixin.py:188} INFO -    region_id region_description
+0          1            Eastern
+1          2            Western
+2          3           Northern
+3          4           Southern
+[2024-06-10T15:19:28.998-0300] {logging_mixin.py:188} WARNING - /home/pedro/airflow/dags/dag_extracao_daily.py:38 UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+[2024-06-10T15:19:29.001-0300] {logging_mixin.py:188} INFO -    territory_id territory_description  region_id
+0         01581              Westboro          1
+1         01730               Bedford          1
+2         01833             Georgetow          1
+3         02116                Boston          1
+4         02139             Cambridge          1
+5         02184             Braintree          1
+6         02903            Providence          1
+7         03049                Hollis          3
+8         03801            Portsmouth          3
+9         06897                Wilton          1
+10        07960            Morristown          1
+11        08837                Edison          1
+12        10019              New York          1
+13        10038              New York          1
+14        11747              Mellvile          1
+15        14450              Fairport          1
+16        19428          Philadelphia          3
+17        19713                Neward          1
+18        20852             Rockville          1
+19        27403            Greensboro          1
+20        27511                  Cary          1
+21        29202              Columbia          4
+22        30346               Atlanta          4
+23        31406              Savannah          4
+24        32859               Orlando          4
+25        33607                 Tampa          4
+26        40222            Louisville          1
+27        44122             Beachwood          3
+28        45839               Findlay          3
+29        48075            Southfield          3
+30        48084                  Troy          3
+31        48304      Bloomfield Hills          3
+32        53404                Racine          3
+33        55113             Roseville          3
+34        55439           Minneapolis          3
+35        60179       Hoffman Estates          2
+36        60601               Chicago          2
+37        72716           Bentonville          4
+38        75234                Dallas          4
+39        78759                Austin          4
+40        80202                Denver          2
+41        80909      Colorado Springs          2
+42        85014               Phoenix          2
+43        85251            Scottsdale          2
+44        90405          Santa Monica          2
+45        94025            Menlo Park          2
+46        94105         San Francisco          2
+47        95008              Campbell          2
+48        95054           Santa Clara          2
+49        95060            Santa Cruz          2
+50        98004              Bellevue          2
+51        98052               Redmond          2
+52        98104               Seattle          2
+[2024-06-10T15:19:29.002-0300] {logging_mixin.py:188} WARNING - /home/pedro/airflow/dags/dag_extracao_daily.py:38 UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+[2024-06-10T15:19:29.005-0300] {logging_mixin.py:188} INFO -     employee_id territory_id
+0             1        06897
+1             1        19713
+2             2        01581
+3             2        01730
+4             2        01833
+5             2        02116
+6             2        02139
+7             2        02184
+8             2        40222
+9             3        30346
+10            3        31406
+11            3        32859
+12            3        33607
+13            4        20852
+14            4        27403
+15            4        27511
+16            5        02903
+17            5        07960
+18            5        08837
+19            5        10019
+20            5        10038
+21            5        11747
+22            5        14450
+23            6        85014
+24            6        85251
+25            6        98004
+26            6        98052
+27            6        98104
+28            7        60179
+29            7        60601
+30            7        80202
+31            7        80909
+32            7        90405
+33            7        94025
+34            7        94105
+35            7        95008
+36            7        95054
+37            7        95060
+38            8        19428
+39            8        44122
+40            8        45839
+41            8        53404
+42            9        03049
+43            9        03801
+44            9        48075
+45            9        48084
+46            9        48304
+47            9        55113
+48            9        55439
+[2024-06-10T15:19:29.006-0300] {logging_mixin.py:188} WARNING - /home/pedro/airflow/dags/dag_extracao_daily.py:38 UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+[2024-06-10T15:19:29.008-0300] {logging_mixin.py:188} INFO - Empty DataFrame
+Columns: [customer_type_id, customer_desc]
+Index: []
+[2024-06-10T15:19:29.009-0300] {logging_mixin.py:188} WARNING - /home/pedro/airflow/dags/dag_extracao_daily.py:38 UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+[2024-06-10T15:19:29.011-0300] {logging_mixin.py:188} INFO - Empty DataFrame
+Columns: [customer_id, customer_type_id]
+Index: []
+[2024-06-10T15:19:29.011-0300] {python.py:237} INFO - Done. Returned value was: None
+[2024-06-10T15:19:29.011-0300] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-10T15:19:29.014-0300] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=data_pipeline, task_id=extract_postgres, run_id=scheduled__2024-04-13T00:00:00+00:00, execution_date=20240413T000000, start_date=20240610T181928, end_date=20240610T181929
+[2024-06-10T15:19:29.024-0300] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-06-10T15:19:29.033-0300] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-06-10T15:19:29.033-0300] {local_task_job_runner.py:222} INFO - ::endgroup::

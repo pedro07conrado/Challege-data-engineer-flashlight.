@@ -1,0 +1,1 @@
+[2024-06-09T16:31:09.936-0300] {scheduler_job_runner.py:769} ERROR - Executor reports task instance <TaskInstance: data_pipeline.transform_save scheduled__2023-02-16T00:00:00+00:00 [queued]> finished (success) although the task says it's queued. (Info: None) Was the task killed externally?

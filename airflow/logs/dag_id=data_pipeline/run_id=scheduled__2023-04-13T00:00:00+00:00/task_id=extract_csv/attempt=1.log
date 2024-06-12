@@ -1,0 +1,36 @@
+[2024-06-09T16:35:29.516-0300] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-09T16:35:29.537-0300] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: data_pipeline.extract_csv scheduled__2023-04-13T00:00:00+00:00 [queued]>
+[2024-06-09T16:35:29.545-0300] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: data_pipeline.extract_csv scheduled__2023-04-13T00:00:00+00:00 [queued]>
+[2024-06-09T16:35:29.545-0300] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-06-09T16:35:29.558-0300] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): extract_csv> on 2023-04-13 00:00:00+00:00
+[2024-06-09T16:35:29.561-0300] {standard_task_runner.py:63} INFO - Started process 9070 to run task
+[2024-06-09T16:35:29.563-0300] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'data_pipeline', 'extract_csv', 'scheduled__2023-04-13T00:00:00+00:00', '--job-id', '271', '--raw', '--subdir', 'DAGS_FOLDER/dag_extracao_daily.py', '--cfg-path', '/tmp/tmp4ap9e0f5']
+[2024-06-09T16:35:29.563-0300] {standard_task_runner.py:91} INFO - Job 271: Subtask extract_csv
+[2024-06-09T16:35:29.595-0300] {task_command.py:426} INFO - Running <TaskInstance: data_pipeline.extract_csv scheduled__2023-04-13T00:00:00+00:00 [running]> on host Pedro-Conrado
+[2024-06-09T16:35:29.640-0300] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='data_pipeline' AIRFLOW_CTX_TASK_ID='extract_csv' AIRFLOW_CTX_EXECUTION_DATE='2023-04-13T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-04-13T00:00:00+00:00'
+[2024-06-09T16:35:29.641-0300] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-09T16:35:29.641-0300] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-09T16:35:29.641-0300] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/pedro/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/pedro/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/pedro/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/pedro/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+  File "/home/pedro/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/pedro/airflow/dags/dag_extracao_daily.py", line 49, in extract_csv
+    shutil.copy(input_file, output_file)
+  File "/usr/lib/python3.10/shutil.py", line 417, in copy
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/usr/lib/python3.10/shutil.py", line 254, in copyfile
+    with open(src, 'rb') as fsrc:
+FileNotFoundError: [Errno 2] No such file or directory: 'data/order_details .csv'
+[2024-06-09T16:35:29.644-0300] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=data_pipeline, task_id=extract_csv, run_id=scheduled__2023-04-13T00:00:00+00:00, execution_date=20230413T000000, start_date=20240609T193529, end_date=20240609T193529
+[2024-06-09T16:35:29.651-0300] {standard_task_runner.py:110} ERROR - Failed to execute job 271 for task extract_csv ([Errno 2] No such file or directory: 'data/order_details .csv'; 9070)
+[2024-06-09T16:35:29.695-0300] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-06-09T16:35:29.715-0300] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-06-09T16:35:29.722-0300] {local_task_job_runner.py:222} INFO - ::endgroup::

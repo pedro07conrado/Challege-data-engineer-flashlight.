@@ -1,0 +1,49 @@
+[2024-06-11T18:40:19.066-0300] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-11T18:40:19.076-0300] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: data_pipeline.extract_csv manual__2024-06-11T21:40:15.838019+00:00 [queued]>
+[2024-06-11T18:40:19.080-0300] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: data_pipeline.extract_csv manual__2024-06-11T21:40:15.838019+00:00 [queued]>
+[2024-06-11T18:40:19.080-0300] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-06-11T18:40:19.089-0300] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): extract_csv> on 2024-06-11 21:40:15.838019+00:00
+[2024-06-11T18:40:19.092-0300] {standard_task_runner.py:63} INFO - Started process 14477 to run task
+[2024-06-11T18:40:19.093-0300] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'data_pipeline', 'extract_csv', 'manual__2024-06-11T21:40:15.838019+00:00', '--job-id', '1703', '--raw', '--subdir', 'DAGS_FOLDER/dag_extracao_daily.py', '--cfg-path', '/tmp/tmphpcwhe7s']
+[2024-06-11T18:40:19.094-0300] {standard_task_runner.py:91} INFO - Job 1703: Subtask extract_csv
+[2024-06-11T18:40:19.116-0300] {task_command.py:426} INFO - Running <TaskInstance: data_pipeline.extract_csv manual__2024-06-11T21:40:15.838019+00:00 [running]> on host Pedro-Conrado
+[2024-06-11T18:40:19.162-0300] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='data_pipeline' AIRFLOW_CTX_TASK_ID='extract_csv' AIRFLOW_CTX_EXECUTION_DATE='2024-06-11T21:40:15.838019+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-06-11T21:40:15.838019+00:00'
+[2024-06-11T18:40:19.162-0300] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-11T18:40:19.173-0300] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-11T18:40:19.174-0300] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/pedro/.local/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'arquivo_referenciado'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pedro/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/pedro/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/pedro/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/pedro/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+  File "/home/pedro/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/pedro/airflow/dags/dag_extracao_daily.py", line 70, in extract_csv
+    reference_file = row[reference_column]  # Obter o nome do arquivo referenciado
+  File "/home/pedro/.local/lib/python3.10/site-packages/pandas/core/series.py", line 1121, in __getitem__
+    return self._get_value(key)
+  File "/home/pedro/.local/lib/python3.10/site-packages/pandas/core/series.py", line 1237, in _get_value
+    loc = self.index.get_loc(label)
+  File "/home/pedro/.local/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'arquivo_referenciado'
+[2024-06-11T18:40:19.178-0300] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=data_pipeline, task_id=extract_csv, run_id=manual__2024-06-11T21:40:15.838019+00:00, execution_date=20240611T214015, start_date=20240611T214019, end_date=20240611T214019
+[2024-06-11T18:40:19.186-0300] {standard_task_runner.py:110} ERROR - Failed to execute job 1703 for task extract_csv ('arquivo_referenciado'; 14477)
+[2024-06-11T18:40:19.226-0300] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-06-11T18:40:19.247-0300] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-06-11T18:40:19.255-0300] {local_task_job_runner.py:222} INFO - ::endgroup::

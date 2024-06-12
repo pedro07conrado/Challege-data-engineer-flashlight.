@@ -1,0 +1,33 @@
+[2024-06-11T20:53:52.394-0300] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-11T20:53:52.411-0300] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: data_pipeline.transform_save manual__2024-06-11T23:53:44.912387+00:00 [queued]>
+[2024-06-11T20:53:52.418-0300] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: data_pipeline.transform_save manual__2024-06-11T23:53:44.912387+00:00 [queued]>
+[2024-06-11T20:53:52.418-0300] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-06-11T20:53:52.430-0300] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): transform_save> on 2024-06-11 23:53:44.912387+00:00
+[2024-06-11T20:53:52.433-0300] {standard_task_runner.py:63} INFO - Started process 25391 to run task
+[2024-06-11T20:53:52.438-0300] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'data_pipeline', 'transform_save', 'manual__2024-06-11T23:53:44.912387+00:00', '--job-id', '1727', '--raw', '--subdir', 'DAGS_FOLDER/dag_extracao_daily.py', '--cfg-path', '/tmp/tmpg4kb81hf']
+[2024-06-11T20:53:52.440-0300] {standard_task_runner.py:91} INFO - Job 1727: Subtask transform_save
+[2024-06-11T20:53:52.474-0300] {task_command.py:426} INFO - Running <TaskInstance: data_pipeline.transform_save manual__2024-06-11T23:53:44.912387+00:00 [running]> on host Pedro-Conrado
+[2024-06-11T20:53:52.545-0300] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='data_pipeline' AIRFLOW_CTX_TASK_ID='transform_save' AIRFLOW_CTX_EXECUTION_DATE='2024-06-11T23:53:44.912387+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-06-11T23:53:44.912387+00:00'
+[2024-06-11T20:53:52.546-0300] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-11T20:53:52.556-0300] {logging_mixin.py:188} INFO - /home/pedro/airflow
+[2024-06-11T20:53:52.556-0300] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-11T20:53:52.556-0300] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/pedro/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/pedro/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/pedro/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/pedro/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+  File "/home/pedro/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/pedro/airflow/dags/dag_extracao_daily.py", line 101, in transform_save
+    raise FileNotFoundError(f"Arquivo não encontrado: {path}")
+FileNotFoundError: Arquivo não encontrado: data/postgres/order_details/data.csv
+[2024-06-11T20:53:52.559-0300] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=data_pipeline, task_id=transform_save, run_id=manual__2024-06-11T23:53:44.912387+00:00, execution_date=20240611T235344, start_date=20240611T235352, end_date=20240611T235352
+[2024-06-11T20:53:52.575-0300] {standard_task_runner.py:110} ERROR - Failed to execute job 1727 for task transform_save (Arquivo não encontrado: data/postgres/order_details/data.csv; 25391)
+[2024-06-11T20:53:52.609-0300] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-06-11T20:53:52.620-0300] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-06-11T20:53:52.621-0300] {local_task_job_runner.py:222} INFO - ::endgroup::

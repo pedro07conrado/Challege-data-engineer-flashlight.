@@ -1,0 +1,40 @@
+[2024-06-11T18:46:14.490-0300] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-11T18:46:14.501-0300] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: data_pipeline.transform_save manual__2024-06-11T21:46:08.071695+00:00 [queued]>
+[2024-06-11T18:46:14.505-0300] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: data_pipeline.transform_save manual__2024-06-11T21:46:08.071695+00:00 [queued]>
+[2024-06-11T18:46:14.505-0300] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-06-11T18:46:14.514-0300] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): transform_save> on 2024-06-11 21:46:08.071695+00:00
+[2024-06-11T18:46:14.517-0300] {standard_task_runner.py:63} INFO - Started process 14937 to run task
+[2024-06-11T18:46:14.519-0300] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'data_pipeline', 'transform_save', 'manual__2024-06-11T21:46:08.071695+00:00', '--job-id', '1708', '--raw', '--subdir', 'DAGS_FOLDER/dag_extracao_daily.py', '--cfg-path', '/tmp/tmp9rdk84lk']
+[2024-06-11T18:46:14.520-0300] {standard_task_runner.py:91} INFO - Job 1708: Subtask transform_save
+[2024-06-11T18:46:14.542-0300] {task_command.py:426} INFO - Running <TaskInstance: data_pipeline.transform_save manual__2024-06-11T21:46:08.071695+00:00 [running]> on host Pedro-Conrado
+[2024-06-11T18:46:14.595-0300] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='data_pipeline' AIRFLOW_CTX_TASK_ID='transform_save' AIRFLOW_CTX_EXECUTION_DATE='2024-06-11T21:46:08.071695+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-06-11T21:46:08.071695+00:00'
+[2024-06-11T18:46:14.596-0300] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-11T18:46:14.613-0300] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-11T18:46:14.613-0300] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/pedro/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/pedro/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/pedro/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/pedro/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+  File "/home/pedro/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/pedro/airflow/dags/dag_extracao_daily.py", line 82, in transform_save
+    merged_data = pd.merge(merged_data, products, on='product_id')
+  File "/home/pedro/.local/lib/python3.10/site-packages/pandas/core/reshape/merge.py", line 170, in merge
+    op = _MergeOperation(
+  File "/home/pedro/.local/lib/python3.10/site-packages/pandas/core/reshape/merge.py", line 794, in __init__
+    ) = self._get_merge_keys()
+  File "/home/pedro/.local/lib/python3.10/site-packages/pandas/core/reshape/merge.py", line 1310, in _get_merge_keys
+    left_keys.append(left._get_label_or_level_values(lk))
+  File "/home/pedro/.local/lib/python3.10/site-packages/pandas/core/generic.py", line 1911, in _get_label_or_level_values
+    raise KeyError(key)
+KeyError: 'product_id'
+[2024-06-11T18:46:14.618-0300] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=data_pipeline, task_id=transform_save, run_id=manual__2024-06-11T21:46:08.071695+00:00, execution_date=20240611T214608, start_date=20240611T214614, end_date=20240611T214614
+[2024-06-11T18:46:14.626-0300] {standard_task_runner.py:110} ERROR - Failed to execute job 1708 for task transform_save ('product_id'; 14937)
+[2024-06-11T18:46:14.651-0300] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-06-11T18:46:14.663-0300] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-06-11T18:46:14.663-0300] {local_task_job_runner.py:222} INFO - ::endgroup::

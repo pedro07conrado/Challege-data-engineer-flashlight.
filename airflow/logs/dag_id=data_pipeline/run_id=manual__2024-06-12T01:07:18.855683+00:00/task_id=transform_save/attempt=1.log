@@ -1,0 +1,35 @@
+[2024-06-11T22:07:29.547-0300] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-11T22:07:29.564-0300] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: data_pipeline.transform_save manual__2024-06-12T01:07:18.855683+00:00 [queued]>
+[2024-06-11T22:07:29.574-0300] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: data_pipeline.transform_save manual__2024-06-12T01:07:18.855683+00:00 [queued]>
+[2024-06-11T22:07:29.574-0300] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-06-11T22:07:29.591-0300] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): transform_save> on 2024-06-12 01:07:18.855683+00:00
+[2024-06-11T22:07:29.595-0300] {standard_task_runner.py:63} INFO - Started process 35709 to run task
+[2024-06-11T22:07:29.598-0300] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'data_pipeline', 'transform_save', 'manual__2024-06-12T01:07:18.855683+00:00', '--job-id', '1774', '--raw', '--subdir', 'DAGS_FOLDER/dag_extracao_daily.py', '--cfg-path', '/tmp/tmpvai48fv8']
+[2024-06-11T22:07:29.600-0300] {standard_task_runner.py:91} INFO - Job 1774: Subtask transform_save
+[2024-06-11T22:07:29.653-0300] {task_command.py:426} INFO - Running <TaskInstance: data_pipeline.transform_save manual__2024-06-12T01:07:18.855683+00:00 [running]> on host Pedro-Conrado
+[2024-06-11T22:07:29.759-0300] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='data_pipeline' AIRFLOW_CTX_TASK_ID='transform_save' AIRFLOW_CTX_EXECUTION_DATE='2024-06-12T01:07:18.855683+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-06-12T01:07:18.855683+00:00'
+[2024-06-11T22:07:29.760-0300] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-11T22:07:29.771-0300] {logging_mixin.py:188} INFO - /home/pedro/airflow
+[2024-06-11T22:07:29.782-0300] {logging_mixin.py:188} INFO - Colunas em orders: Index(['order_id', 'customer_id', 'employee_id', 'order_date', 'required_date',
+       'shipped_date', 'ship_via', 'freight', 'ship_name', 'ship_address',
+       'ship_city', 'ship_region', 'ship_postal_code', 'ship_country'],
+      dtype='object')
+[2024-06-11T22:07:29.782-0300] {logging_mixin.py:188} INFO - Colunas em products: Index(['product_id', 'product_name', 'supplier_id', 'category_id',
+       'quantity_per_unit', 'unit_price', 'units_in_stock', 'units_on_order',
+       'reorder_level', 'discontinued'],
+      dtype='object')
+[2024-06-11T22:07:29.782-0300] {logging_mixin.py:188} INFO - Colunas em customers: Index(['customer_id', 'company_name', 'contact_name', 'contact_title',
+       'address', 'city', 'region', 'postal_code', 'country', 'phone', 'fax'],
+      dtype='object')
+[2024-06-11T22:07:29.782-0300] {logging_mixin.py:188} INFO - Colunas em order_details: Index(['order_id', 'product_id', 'unit_price', 'quantity', 'discount'], dtype='object')
+[2024-06-11T22:07:29.798-0300] {logging_mixin.py:188} INFO - Conexão estabelecida com sucesso!
+[2024-06-11T22:07:29.818-0300] {logging_mixin.py:188} WARNING - /home/pedro/.local/lib/python3.10/site-packages/pandas/io/sql.py:1999 SAWarning: Did not recognize type 'bpchar' of column 'customer_id'
+[2024-06-11T22:07:29.897-0300] {logging_mixin.py:188} INFO - Conexão estabelecida com sucesso!
+[2024-06-11T22:07:29.939-0300] {logging_mixin.py:188} INFO - Conexão estabelecida com sucesso!
+[2024-06-11T22:07:29.977-0300] {logging_mixin.py:188} INFO - Conexão estabelecida com sucesso!
+[2024-06-11T22:07:30.031-0300] {python.py:237} INFO - Done. Returned value was: None
+[2024-06-11T22:07:30.031-0300] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-11T22:07:30.037-0300] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=data_pipeline, task_id=transform_save, run_id=manual__2024-06-12T01:07:18.855683+00:00, execution_date=20240612T010718, start_date=20240612T010729, end_date=20240612T010730
+[2024-06-11T22:07:30.091-0300] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-06-11T22:07:30.104-0300] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-06-11T22:07:30.106-0300] {local_task_job_runner.py:222} INFO - ::endgroup::

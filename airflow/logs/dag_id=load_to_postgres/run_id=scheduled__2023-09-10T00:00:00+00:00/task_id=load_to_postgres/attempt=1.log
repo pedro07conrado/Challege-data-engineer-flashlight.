@@ -1,0 +1,42 @@
+[2024-06-10T16:22:24.035-0300] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-10T16:22:24.044-0300] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: load_to_postgres.load_to_postgres scheduled__2023-09-10T00:00:00+00:00 [queued]>
+[2024-06-10T16:22:24.047-0300] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: load_to_postgres.load_to_postgres scheduled__2023-09-10T00:00:00+00:00 [queued]>
+[2024-06-10T16:22:24.047-0300] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-06-10T16:22:24.057-0300] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): load_to_postgres> on 2023-09-10 00:00:00+00:00
+[2024-06-10T16:22:24.059-0300] {standard_task_runner.py:63} INFO - Started process 21367 to run task
+[2024-06-10T16:22:24.061-0300] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'load_to_postgres', 'load_to_postgres', 'scheduled__2023-09-10T00:00:00+00:00', '--job-id', '1403', '--raw', '--subdir', 'DAGS_FOLDER/dag_load_to_postegresql.py', '--cfg-path', '/tmp/tmp0j2n5do1']
+[2024-06-10T16:22:24.061-0300] {standard_task_runner.py:91} INFO - Job 1403: Subtask load_to_postgres
+[2024-06-10T16:22:24.083-0300] {task_command.py:426} INFO - Running <TaskInstance: load_to_postgres.load_to_postgres scheduled__2023-09-10T00:00:00+00:00 [running]> on host Pedro-Conrado
+[2024-06-10T16:22:24.127-0300] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='load_to_postgres' AIRFLOW_CTX_TASK_ID='load_to_postgres' AIRFLOW_CTX_EXECUTION_DATE='2023-09-10T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-09-10T00:00:00+00:00'
+[2024-06-10T16:22:24.128-0300] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-10T16:22:24.135-0300] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-10T16:22:24.135-0300] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/pedro/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/pedro/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/pedro/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/pedro/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+  File "/home/pedro/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/pedro/airflow/dags/dag_load_to_postegresql.py", line 30, in load_to_postgres
+    df = pd.read_csv('data/output/output.csv')
+  File "/home/pedro/.local/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/pedro/.local/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/pedro/.local/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/pedro/.local/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/home/pedro/.local/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/output/output.csv'
+[2024-06-10T16:22:24.138-0300] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=load_to_postgres, task_id=load_to_postgres, run_id=scheduled__2023-09-10T00:00:00+00:00, execution_date=20230910T000000, start_date=20240610T192224, end_date=20240610T192224
+[2024-06-10T16:22:24.146-0300] {standard_task_runner.py:110} ERROR - Failed to execute job 1403 for task load_to_postgres ([Errno 2] No such file or directory: 'data/output/output.csv'; 21367)
+[2024-06-10T16:22:24.152-0300] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-06-10T16:22:24.158-0300] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-06-10T16:22:24.159-0300] {local_task_job_runner.py:222} INFO - ::endgroup::

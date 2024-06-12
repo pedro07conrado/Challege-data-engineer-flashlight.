@@ -1,0 +1,448 @@
+[2024-06-09T11:45:10.835-0300] {processor.py:161} INFO - Started process (PID=5781) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:45:10.836-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T11:45:10.837-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:45:10.836-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:45:11.179-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:45:11.224-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:45:11.224-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T11:45:11.234-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:45:11.234-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-06-09T11:45:11.247-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.415 seconds
+[2024-06-09T11:46:03.746-0300] {processor.py:161} INFO - Started process (PID=7145) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:46:03.749-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T11:46:03.751-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:46:03.751-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:46:03.989-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:46:03.995-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:46:03.995-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T11:46:04.004-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:46:04.004-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-06-09T11:46:04.020-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.278 seconds
+[2024-06-09T11:46:49.587-0300] {processor.py:161} INFO - Started process (PID=7307) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:46:49.587-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T11:46:49.588-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:46:49.588-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:46:49.773-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:46:49.782-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:46:49.781-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T11:46:49.792-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:46:49.791-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-06-09T11:46:49.809-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.228 seconds
+[2024-06-09T11:47:30.787-0300] {processor.py:161} INFO - Started process (PID=7393) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:47:30.790-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T11:47:30.792-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:47:30.792-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:47:30.976-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:47:30.983-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:47:30.983-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T11:47:30.992-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:47:30.992-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-06-09T11:47:31.008-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.228 seconds
+[2024-06-09T11:48:13.436-0300] {processor.py:161} INFO - Started process (PID=7468) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:48:13.439-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T11:48:13.441-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:48:13.440-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:48:13.624-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:48:13.632-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:48:13.631-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T11:48:13.641-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:48:13.640-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-06-09T11:48:13.656-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.223 seconds
+[2024-06-09T11:48:56.519-0300] {processor.py:161} INFO - Started process (PID=7606) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:48:56.523-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T11:48:56.525-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:48:56.525-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:48:56.712-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:48:56.719-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:48:56.719-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T11:48:56.730-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:48:56.730-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-06-09T11:48:56.747-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.236 seconds
+[2024-06-09T11:49:38.114-0300] {processor.py:161} INFO - Started process (PID=7915) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:49:38.117-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T11:49:38.120-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:49:38.119-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:49:38.335-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:49:38.344-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:49:38.344-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T11:49:38.355-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:49:38.354-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-06-09T11:49:38.373-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.264 seconds
+[2024-06-09T11:50:23.338-0300] {processor.py:161} INFO - Started process (PID=7978) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:50:23.341-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T11:50:23.343-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:50:23.342-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:50:23.539-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:50:23.546-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:50:23.546-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T11:50:23.556-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:50:23.555-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-06-09T11:50:23.572-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.238 seconds
+[2024-06-09T11:51:09.747-0300] {processor.py:161} INFO - Started process (PID=8187) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:51:09.750-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T11:51:09.752-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:51:09.751-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:51:09.940-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:51:09.947-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:51:09.947-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T11:51:09.957-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:51:09.956-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-06-09T11:51:09.974-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.230 seconds
+[2024-06-09T11:51:54.773-0300] {processor.py:161} INFO - Started process (PID=8276) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:51:54.777-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T11:51:54.778-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:51:54.778-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:51:54.963-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:51:54.970-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:51:54.970-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T11:51:54.979-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:51:54.979-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-06-09T11:51:54.995-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.226 seconds
+[2024-06-09T11:52:35.947-0300] {processor.py:161} INFO - Started process (PID=8390) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:52:35.950-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T11:52:35.951-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:52:35.951-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:52:36.187-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:52:36.195-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:52:36.195-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T11:52:36.207-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:52:36.206-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-06-09T11:52:36.227-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.284 seconds
+[2024-06-09T11:53:15.665-0300] {processor.py:161} INFO - Started process (PID=8487) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:53:15.669-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T11:53:15.671-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:53:15.670-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:53:15.855-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:53:15.862-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:53:15.862-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T11:53:15.871-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:53:15.871-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-06-09T11:53:15.888-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.230 seconds
+[2024-06-09T11:53:54.504-0300] {processor.py:161} INFO - Started process (PID=8568) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:53:54.508-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T11:53:54.510-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:53:54.510-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:53:54.699-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:53:54.706-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:53:54.706-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T11:53:54.716-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:53:54.716-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-06-09T11:53:54.728-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.229 seconds
+[2024-06-09T11:54:36.727-0300] {processor.py:161} INFO - Started process (PID=8638) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:54:36.729-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T11:54:36.731-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:54:36.730-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:54:36.929-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:54:36.937-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:54:36.936-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T11:54:36.947-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:54:36.946-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-06-09T11:54:36.963-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.241 seconds
+[2024-06-09T11:55:15.532-0300] {processor.py:161} INFO - Started process (PID=8697) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:55:15.535-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T11:55:15.538-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:55:15.537-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:55:15.725-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:55:15.731-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:55:15.731-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T11:55:15.741-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:55:15.741-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-06-09T11:55:15.758-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.231 seconds
+[2024-06-09T11:55:54.996-0300] {processor.py:161} INFO - Started process (PID=8920) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:55:54.999-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T11:55:55.001-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:55:55.001-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:55:55.188-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:55:55.195-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:55:55.195-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T11:55:55.204-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:55:55.204-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-06-09T11:55:55.219-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.228 seconds
+[2024-06-09T11:57:34.708-0300] {processor.py:161} INFO - Started process (PID=9566) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:57:34.708-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T11:57:34.710-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:57:34.709-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:57:34.947-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:57:34.956-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:57:34.955-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T11:57:34.964-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:57:34.964-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-06-09T11:57:34.981-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.276 seconds
+[2024-06-09T11:58:25.364-0300] {processor.py:161} INFO - Started process (PID=9908) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:58:25.367-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T11:58:25.369-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:58:25.369-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:58:25.631-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:58:25.640-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:58:25.639-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T11:58:25.649-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:58:25.649-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-06-09T11:58:25.667-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.311 seconds
+[2024-06-09T11:59:02.696-0300] {processor.py:161} INFO - Started process (PID=10550) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:59:02.696-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T11:59:02.698-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:59:02.698-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:59:02.947-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:59:02.955-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:59:02.955-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T11:59:02.963-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:59:02.963-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-06-09T11:59:02.980-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.288 seconds
+[2024-06-09T11:59:53.413-0300] {processor.py:161} INFO - Started process (PID=10774) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:59:53.416-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T11:59:53.418-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:59:53.418-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:59:53.651-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T11:59:53.658-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:59:53.658-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T11:59:53.669-0300] {logging_mixin.py:188} INFO - [2024-06-09T11:59:53.669-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-06-09T11:59:53.686-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.278 seconds
+[2024-06-09T12:00:39.526-0300] {processor.py:161} INFO - Started process (PID=10847) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:00:39.529-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T12:00:39.532-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:00:39.531-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:00:39.728-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:00:39.735-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:00:39.735-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T12:00:39.746-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:00:39.746-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-06-09T12:00:39.765-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.248 seconds
+[2024-06-09T12:01:21.491-0300] {processor.py:161} INFO - Started process (PID=11131) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:01:21.493-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T12:01:21.495-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:01:21.494-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:01:21.687-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:01:21.696-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:01:21.696-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T12:01:21.708-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:01:21.708-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-06-09T12:01:21.726-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.244 seconds
+[2024-06-09T12:02:04.643-0300] {processor.py:161} INFO - Started process (PID=11214) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:02:04.647-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T12:02:04.649-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:02:04.649-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:02:04.846-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:02:04.854-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:02:04.853-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T12:02:04.865-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:02:04.864-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-06-09T12:02:04.883-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.248 seconds
+[2024-06-09T12:02:50.199-0300] {processor.py:161} INFO - Started process (PID=11314) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:02:50.202-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T12:02:50.204-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:02:50.203-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:02:50.400-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:02:50.407-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:02:50.406-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T12:02:50.417-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:02:50.417-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-06-09T12:02:50.434-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.240 seconds
+[2024-06-09T12:03:32.789-0300] {processor.py:161} INFO - Started process (PID=11381) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:03:32.792-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T12:03:32.793-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:03:32.793-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:03:32.988-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:03:32.997-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:03:32.996-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T12:03:33.006-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:03:33.006-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-06-09T12:03:33.020-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.235 seconds
+[2024-06-09T12:04:11.036-0300] {processor.py:161} INFO - Started process (PID=11480) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:04:11.039-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T12:04:11.041-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:04:11.040-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:04:11.239-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:04:11.246-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:04:11.246-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T12:04:11.257-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:04:11.257-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-06-09T12:04:11.275-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.245 seconds
+[2024-06-09T12:04:51.618-0300] {processor.py:161} INFO - Started process (PID=11551) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:04:51.622-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T12:04:51.624-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:04:51.623-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:04:51.819-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:04:51.828-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:04:51.827-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T12:04:51.838-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:04:51.838-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-06-09T12:04:51.857-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.248 seconds
+[2024-06-09T12:05:33.626-0300] {processor.py:161} INFO - Started process (PID=11640) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:05:33.630-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T12:05:33.632-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:05:33.631-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:05:33.826-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:05:33.833-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:05:33.833-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T12:05:33.842-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:05:33.842-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-06-09T12:05:33.859-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.242 seconds
+[2024-06-09T12:06:24.786-0300] {processor.py:161} INFO - Started process (PID=12399) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:06:24.786-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T12:06:24.787-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:06:24.787-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:06:25.040-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:06:25.049-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:06:25.048-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T12:06:25.057-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:06:25.057-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-06-09T12:06:25.071-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.288 seconds
+[2024-06-09T12:07:17.188-0300] {processor.py:161} INFO - Started process (PID=12494) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:07:17.191-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T12:07:17.194-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:07:17.193-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:07:17.437-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:07:17.443-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:07:17.443-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T12:07:17.452-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:07:17.452-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-06-09T12:07:17.470-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.288 seconds
+[2024-06-09T12:08:10.749-0300] {processor.py:161} INFO - Started process (PID=12593) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:08:10.753-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T12:08:10.755-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:08:10.754-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:08:10.948-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:08:10.957-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:08:10.956-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T12:08:10.967-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:08:10.967-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-06-09T12:08:10.985-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.242 seconds
+[2024-06-09T12:08:53.853-0300] {processor.py:161} INFO - Started process (PID=12675) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:08:53.857-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T12:08:53.859-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:08:53.859-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:08:54.057-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:08:54.064-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:08:54.064-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T12:08:54.075-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:08:54.075-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-06-09T12:08:54.090-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.246 seconds
+[2024-06-09T12:09:37.436-0300] {processor.py:161} INFO - Started process (PID=12766) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:09:37.439-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T12:09:37.441-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:09:37.440-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:09:37.636-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:09:37.643-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:09:37.643-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T12:09:37.653-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:09:37.653-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-06-09T12:09:37.671-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.239 seconds
+[2024-06-09T12:10:18.383-0300] {processor.py:161} INFO - Started process (PID=12832) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:10:18.387-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T12:10:18.389-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:10:18.389-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:10:18.588-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:10:18.597-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:10:18.596-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T12:10:18.608-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:10:18.608-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-06-09T12:10:18.627-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.252 seconds
+[2024-06-09T12:11:00.315-0300] {processor.py:161} INFO - Started process (PID=12908) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:11:00.319-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T12:11:00.321-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:11:00.321-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:11:00.515-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:11:00.524-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:11:00.524-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T12:11:00.534-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:11:00.534-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-06-09T12:11:00.555-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.248 seconds
+[2024-06-09T12:11:39.428-0300] {processor.py:161} INFO - Started process (PID=12979) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:11:39.429-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T12:11:39.430-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:11:39.430-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:11:39.687-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:11:39.697-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:11:39.697-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T12:11:39.706-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:11:39.706-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-06-09T12:11:39.724-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.300 seconds
+[2024-06-09T12:12:32.087-0300] {processor.py:161} INFO - Started process (PID=13057) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:12:32.090-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T12:12:32.092-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:12:32.092-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:12:32.352-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:12:32.358-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:12:32.358-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T12:12:32.366-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:12:32.366-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-06-09T12:12:32.383-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.304 seconds
+[2024-06-09T12:13:21.062-0300] {processor.py:161} INFO - Started process (PID=13139) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:13:21.065-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T12:13:21.067-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:13:21.066-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:13:21.267-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:13:21.275-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:13:21.275-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T12:13:21.286-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:13:21.286-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-06-09T12:13:21.303-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.245 seconds
+[2024-06-09T12:14:05.309-0300] {processor.py:161} INFO - Started process (PID=13201) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:14:05.312-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T12:14:05.314-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:14:05.314-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:14:05.514-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:14:05.521-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:14:05.521-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T12:14:05.533-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:14:05.533-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-06-09T12:14:05.550-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.246 seconds
+[2024-06-09T12:14:52.590-0300] {processor.py:161} INFO - Started process (PID=13283) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:14:52.590-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T12:14:52.591-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:14:52.591-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:14:52.851-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:14:52.860-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:14:52.860-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T12:14:52.870-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:14:52.870-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-06-09T12:14:52.887-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.300 seconds
+[2024-06-09T12:15:45.284-0300] {processor.py:161} INFO - Started process (PID=13381) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:15:45.285-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T12:15:45.286-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:15:45.286-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:15:45.549-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:15:45.555-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:15:45.555-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T12:15:45.565-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:15:45.565-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-06-09T12:15:45.583-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.302 seconds
+[2024-06-09T12:19:41.703-0300] {processor.py:161} INFO - Started process (PID=13507) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:19:41.704-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T12:19:41.705-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:19:41.704-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:19:41.951-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:19:41.961-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:19:41.961-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T12:19:41.971-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:19:41.971-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-06-09T12:19:41.989-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.289 seconds
+[2024-06-09T12:20:33.461-0300] {processor.py:161} INFO - Started process (PID=13661) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:20:33.462-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T12:20:33.463-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:20:33.463-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:20:33.708-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:20:33.713-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:20:33.713-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T12:20:33.726-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:20:33.725-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-06-09T12:20:33.746-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.288 seconds
+[2024-06-09T12:21:17.667-0300] {processor.py:161} INFO - Started process (PID=13765) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:21:17.670-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T12:21:17.673-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:21:17.672-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:21:17.858-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:21:17.865-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:21:17.865-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T12:21:17.874-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:21:17.874-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-06-09T12:21:17.891-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.229 seconds
+[2024-06-09T12:21:56.603-0300] {processor.py:161} INFO - Started process (PID=13842) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:21:56.606-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T12:21:56.607-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:21:56.607-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:21:56.793-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:21:56.799-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:21:56.799-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T12:21:56.809-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:21:56.809-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-06-09T12:21:56.824-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.226 seconds
+[2024-06-09T12:22:37.645-0300] {processor.py:161} INFO - Started process (PID=13914) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:22:37.646-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T12:22:37.647-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:22:37.647-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:22:37.832-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:22:37.839-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:22:37.839-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T12:22:37.848-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:22:37.848-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-06-09T12:22:37.866-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.225 seconds
+[2024-06-09T12:23:21.290-0300] {processor.py:161} INFO - Started process (PID=14008) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:23:21.293-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T12:23:21.294-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:23:21.294-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:23:21.480-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T12:23:21.487-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:23:21.487-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T12:23:21.497-0300] {logging_mixin.py:188} INFO - [2024-06-09T12:23:21.497-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-06-09T12:23:21.514-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.229 seconds
+[2024-06-09T16:25:58.118-0300] {processor.py:161} INFO - Started process (PID=4668) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T16:25:58.118-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T16:25:58.119-0300] {logging_mixin.py:188} INFO - [2024-06-09T16:25:58.119-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T16:25:58.475-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T16:25:58.486-0300] {logging_mixin.py:188} INFO - [2024-06-09T16:25:58.485-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T16:25:58.495-0300] {logging_mixin.py:188} INFO - [2024-06-09T16:25:58.495-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-06-09T16:25:58.536-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.421 seconds
+[2024-06-09T16:27:38.997-0300] {processor.py:161} INFO - Started process (PID=5225) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T16:27:38.998-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T16:27:38.999-0300] {logging_mixin.py:188} INFO - [2024-06-09T16:27:38.998-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T16:27:39.255-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T16:27:39.299-0300] {logging_mixin.py:188} INFO - [2024-06-09T16:27:39.299-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T16:27:39.308-0300] {logging_mixin.py:188} INFO - [2024-06-09T16:27:39.308-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-01-11 00:00:00+00:00, run_after=2023-01-12 00:00:00+00:00
+[2024-06-09T16:27:39.349-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.355 seconds
+[2024-06-09T16:29:53.478-0300] {processor.py:161} INFO - Started process (PID=6124) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T16:29:53.479-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T16:29:53.480-0300] {logging_mixin.py:188} INFO - [2024-06-09T16:29:53.480-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T16:29:53.704-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T16:29:53.715-0300] {logging_mixin.py:188} INFO - [2024-06-09T16:29:53.715-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T16:29:53.729-0300] {logging_mixin.py:188} INFO - [2024-06-09T16:29:53.729-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-02-03 00:00:00+00:00, run_after=2023-02-04 00:00:00+00:00
+[2024-06-09T16:29:53.750-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.276 seconds
+[2024-06-09T16:32:01.690-0300] {processor.py:161} INFO - Started process (PID=7909) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T16:32:01.694-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T16:32:01.695-0300] {logging_mixin.py:188} INFO - [2024-06-09T16:32:01.695-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T16:32:01.902-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T16:32:01.954-0300] {logging_mixin.py:188} INFO - [2024-06-09T16:32:01.954-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T16:32:01.964-0300] {logging_mixin.py:188} INFO - [2024-06-09T16:32:01.964-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-02-24 00:00:00+00:00, run_after=2023-02-25 00:00:00+00:00
+[2024-06-09T16:32:01.987-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.301 seconds
+[2024-06-09T16:34:05.366-0300] {processor.py:161} INFO - Started process (PID=8580) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T16:34:05.370-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T16:34:05.371-0300] {logging_mixin.py:188} INFO - [2024-06-09T16:34:05.370-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T16:34:05.555-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T16:34:05.563-0300] {logging_mixin.py:188} INFO - [2024-06-09T16:34:05.563-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T16:34:05.574-0300] {logging_mixin.py:188} INFO - [2024-06-09T16:34:05.574-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-03-25 00:00:00+00:00, run_after=2023-03-26 00:00:00+00:00
+[2024-06-09T16:34:05.593-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.232 seconds
+[2024-06-09T16:36:03.388-0300] {processor.py:161} INFO - Started process (PID=9261) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T16:36:03.389-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T16:36:03.391-0300] {logging_mixin.py:188} INFO - [2024-06-09T16:36:03.391-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T16:36:03.578-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T16:36:03.585-0300] {logging_mixin.py:188} INFO - [2024-06-09T16:36:03.585-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T16:36:03.595-0300] {logging_mixin.py:188} INFO - [2024-06-09T16:36:03.595-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-04-22 00:00:00+00:00, run_after=2023-04-23 00:00:00+00:00
+[2024-06-09T16:36:03.613-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.231 seconds
+[2024-06-09T16:37:58.687-0300] {processor.py:161} INFO - Started process (PID=9988) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T16:37:58.689-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T16:37:58.690-0300] {logging_mixin.py:188} INFO - [2024-06-09T16:37:58.690-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T16:37:58.880-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T16:37:58.887-0300] {logging_mixin.py:188} INFO - [2024-06-09T16:37:58.887-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T16:37:58.896-0300] {logging_mixin.py:188} INFO - [2024-06-09T16:37:58.896-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-05-19 00:00:00+00:00, run_after=2023-05-20 00:00:00+00:00
+[2024-06-09T16:37:58.914-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.233 seconds
+[2024-06-09T16:39:56.352-0300] {processor.py:161} INFO - Started process (PID=10665) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T16:39:56.355-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T16:39:56.357-0300] {logging_mixin.py:188} INFO - [2024-06-09T16:39:56.357-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T16:39:56.556-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T16:39:56.563-0300] {logging_mixin.py:188} INFO - [2024-06-09T16:39:56.563-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T16:39:56.576-0300] {logging_mixin.py:188} INFO - [2024-06-09T16:39:56.576-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-06-16 00:00:00+00:00, run_after=2023-06-17 00:00:00+00:00
+[2024-06-09T16:39:56.595-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.251 seconds
+[2024-06-09T16:41:55.273-0300] {processor.py:161} INFO - Started process (PID=11397) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T16:41:55.274-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T16:41:55.276-0300] {logging_mixin.py:188} INFO - [2024-06-09T16:41:55.275-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T16:41:55.468-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T16:41:55.476-0300] {logging_mixin.py:188} INFO - [2024-06-09T16:41:55.476-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T16:41:55.486-0300] {logging_mixin.py:188} INFO - [2024-06-09T16:41:55.486-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-07-14 00:00:00+00:00, run_after=2023-07-15 00:00:00+00:00
+[2024-06-09T16:41:55.503-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.236 seconds
+[2024-06-09T16:43:54.359-0300] {processor.py:161} INFO - Started process (PID=12082) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T16:43:54.360-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T16:43:54.361-0300] {logging_mixin.py:188} INFO - [2024-06-09T16:43:54.361-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T16:43:54.580-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T16:43:54.588-0300] {logging_mixin.py:188} INFO - [2024-06-09T16:43:54.588-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T16:43:54.601-0300] {logging_mixin.py:188} INFO - [2024-06-09T16:43:54.601-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-08-10 00:00:00+00:00, run_after=2023-08-11 00:00:00+00:00
+[2024-06-09T16:43:54.620-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.265 seconds
+[2024-06-09T16:46:08.466-0300] {processor.py:161} INFO - Started process (PID=12828) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T16:46:08.469-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T16:46:08.470-0300] {logging_mixin.py:188} INFO - [2024-06-09T16:46:08.470-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T16:46:08.677-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T16:46:08.685-0300] {logging_mixin.py:188} INFO - [2024-06-09T16:46:08.684-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T16:46:08.694-0300] {logging_mixin.py:188} INFO - [2024-06-09T16:46:08.694-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-09-09 00:00:00+00:00, run_after=2023-09-10 00:00:00+00:00
+[2024-06-09T16:46:08.712-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.249 seconds
+[2024-06-09T16:48:11.668-0300] {processor.py:161} INFO - Started process (PID=13536) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T16:48:11.671-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T16:48:11.672-0300] {logging_mixin.py:188} INFO - [2024-06-09T16:48:11.672-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T16:48:11.877-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T16:48:11.884-0300] {logging_mixin.py:188} INFO - [2024-06-09T16:48:11.883-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T16:48:11.894-0300] {logging_mixin.py:188} INFO - [2024-06-09T16:48:11.894-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-10-08 00:00:00+00:00, run_after=2023-10-09 00:00:00+00:00
+[2024-06-09T16:48:11.908-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.243 seconds
+[2024-06-09T16:50:10.727-0300] {processor.py:161} INFO - Started process (PID=14333) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T16:50:10.728-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T16:50:10.729-0300] {logging_mixin.py:188} INFO - [2024-06-09T16:50:10.729-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T16:50:10.939-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T16:50:10.946-0300] {logging_mixin.py:188} INFO - [2024-06-09T16:50:10.946-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T16:50:10.957-0300] {logging_mixin.py:188} INFO - [2024-06-09T16:50:10.957-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-11-05 00:00:00+00:00, run_after=2023-11-06 00:00:00+00:00
+[2024-06-09T16:50:10.977-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.255 seconds
+[2024-06-09T16:52:11.981-0300] {processor.py:161} INFO - Started process (PID=15003) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T16:52:11.982-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T16:52:11.983-0300] {logging_mixin.py:188} INFO - [2024-06-09T16:52:11.983-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T16:52:12.202-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T16:52:12.210-0300] {logging_mixin.py:188} INFO - [2024-06-09T16:52:12.209-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T16:52:12.219-0300] {logging_mixin.py:188} INFO - [2024-06-09T16:52:12.219-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-12-03 00:00:00+00:00, run_after=2023-12-04 00:00:00+00:00
+[2024-06-09T16:52:12.236-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.259 seconds
+[2024-06-09T16:54:18.794-0300] {processor.py:161} INFO - Started process (PID=15734) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T16:54:18.795-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T16:54:18.797-0300] {logging_mixin.py:188} INFO - [2024-06-09T16:54:18.797-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T16:54:19.078-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T16:54:19.091-0300] {logging_mixin.py:188} INFO - [2024-06-09T16:54:19.090-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T16:54:19.113-0300] {logging_mixin.py:188} INFO - [2024-06-09T16:54:19.113-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2023-12-31 00:00:00+00:00, run_after=2024-01-01 00:00:00+00:00
+[2024-06-09T16:54:19.145-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.358 seconds
+[2024-06-09T16:56:26.673-0300] {processor.py:161} INFO - Started process (PID=16468) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T16:56:26.676-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T16:56:26.678-0300] {logging_mixin.py:188} INFO - [2024-06-09T16:56:26.677-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T16:56:26.911-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T16:56:26.922-0300] {logging_mixin.py:188} INFO - [2024-06-09T16:56:26.921-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T16:56:26.934-0300] {logging_mixin.py:188} INFO - [2024-06-09T16:56:26.934-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2024-01-29 00:00:00+00:00, run_after=2024-01-30 00:00:00+00:00
+[2024-06-09T16:56:26.954-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.286 seconds
+[2024-06-09T16:58:29.411-0300] {processor.py:161} INFO - Started process (PID=17206) to work on /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T16:58:29.412-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_extracao_daily.py for tasks to queue
+[2024-06-09T16:58:29.413-0300] {logging_mixin.py:188} INFO - [2024-06-09T16:58:29.413-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T16:58:29.614-0300] {processor.py:840} INFO - DAG(s) 'data_pipeline' retrieved from /home/pedro/airflow/dags/dag_extracao_daily.py
+[2024-06-09T16:58:29.621-0300] {logging_mixin.py:188} INFO - [2024-06-09T16:58:29.621-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-09T16:58:29.631-0300] {logging_mixin.py:188} INFO - [2024-06-09T16:58:29.631-0300] {dag.py:3954} INFO - Setting next_dagrun for data_pipeline to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-06-09T16:58:29.648-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_extracao_daily.py took 0.244 seconds

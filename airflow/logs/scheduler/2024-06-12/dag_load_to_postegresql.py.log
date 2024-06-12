@@ -1,0 +1,945 @@
+[2024-06-11T21:00:11.545-0300] {processor.py:161} INFO - Started process (PID=26183) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:00:11.545-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:00:11.546-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:00:11.546-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:00:11.927-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:00:11.941-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:00:11.941-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:00:11.955-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:00:11.955-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:00:11.973-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.432 seconds
+[2024-06-11T21:00:42.320-0300] {processor.py:161} INFO - Started process (PID=26219) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:00:42.339-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:00:42.340-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:00:42.340-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:00:42.729-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:00:42.748-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:00:42.748-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:00:42.760-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:00:42.760-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:00:42.784-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.474 seconds
+[2024-06-11T21:01:13.064-0300] {processor.py:161} INFO - Started process (PID=26268) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:01:13.067-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:01:13.068-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:01:13.067-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:01:13.410-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:01:13.423-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:01:13.423-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:01:13.435-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:01:13.434-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:01:13.456-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.397 seconds
+[2024-06-11T21:01:43.927-0300] {processor.py:161} INFO - Started process (PID=26326) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:01:43.930-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:01:43.930-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:01:43.930-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:01:44.284-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:01:44.295-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:01:44.295-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:01:44.304-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:01:44.304-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:01:44.322-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.401 seconds
+[2024-06-11T21:02:14.495-0300] {processor.py:161} INFO - Started process (PID=26371) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:02:14.498-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:02:14.499-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:02:14.498-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:02:14.834-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:02:14.846-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:02:14.845-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:02:14.860-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:02:14.860-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:02:14.882-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.392 seconds
+[2024-06-11T21:02:44.956-0300] {processor.py:161} INFO - Started process (PID=26489) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:02:44.960-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:02:44.960-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:02:44.960-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:02:45.319-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:02:45.332-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:02:45.332-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:02:45.345-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:02:45.344-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:02:45.364-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.412 seconds
+[2024-06-11T21:03:15.547-0300] {processor.py:161} INFO - Started process (PID=26533) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:03:15.550-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:03:15.551-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:03:15.551-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:03:15.944-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:03:15.955-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:03:15.954-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:03:15.969-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:03:15.968-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:03:15.990-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.447 seconds
+[2024-06-11T21:03:46.109-0300] {processor.py:161} INFO - Started process (PID=26603) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:03:46.110-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:03:46.111-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:03:46.110-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:03:46.532-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:03:46.543-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:03:46.542-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:03:46.554-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:03:46.554-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:03:46.573-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.468 seconds
+[2024-06-11T21:04:16.682-0300] {processor.py:161} INFO - Started process (PID=26681) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:04:16.685-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:04:16.686-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:04:16.685-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:04:16.981-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:04:16.990-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:04:16.990-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:04:17.001-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:04:17.001-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:04:17.021-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.343 seconds
+[2024-06-11T21:04:47.147-0300] {processor.py:161} INFO - Started process (PID=26738) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:04:47.167-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:04:47.168-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:04:47.167-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:04:47.490-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:04:47.500-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:04:47.499-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:04:47.511-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:04:47.511-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:04:47.530-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.388 seconds
+[2024-06-11T21:05:17.609-0300] {processor.py:161} INFO - Started process (PID=26803) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:05:17.612-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:05:17.613-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:05:17.612-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:05:17.924-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:05:17.934-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:05:17.934-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:05:17.945-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:05:17.945-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:05:17.964-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.361 seconds
+[2024-06-11T21:05:48.083-0300] {processor.py:161} INFO - Started process (PID=26865) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:05:48.102-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:05:48.102-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:05:48.102-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:05:48.422-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:05:48.434-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:05:48.433-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:05:48.444-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:05:48.444-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:05:48.464-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.385 seconds
+[2024-06-11T21:06:18.542-0300] {processor.py:161} INFO - Started process (PID=26949) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:06:18.562-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:06:18.562-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:06:18.562-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:06:18.948-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:06:18.970-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:06:18.969-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:06:18.982-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:06:18.982-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:06:19.011-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.474 seconds
+[2024-06-11T21:06:49.111-0300] {processor.py:161} INFO - Started process (PID=27007) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:06:49.115-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:06:49.116-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:06:49.115-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:06:49.416-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:06:49.425-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:06:49.425-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:06:49.436-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:06:49.436-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:06:49.454-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.347 seconds
+[2024-06-11T21:07:19.569-0300] {processor.py:161} INFO - Started process (PID=27056) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:07:19.588-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:07:19.589-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:07:19.589-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:07:19.903-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:07:19.915-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:07:19.914-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:07:19.926-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:07:19.925-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:07:19.945-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.380 seconds
+[2024-06-11T21:07:50.027-0300] {processor.py:161} INFO - Started process (PID=27102) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:07:50.046-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:07:50.047-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:07:50.047-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:07:50.359-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:07:50.368-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:07:50.368-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:07:50.380-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:07:50.380-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:07:50.402-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.379 seconds
+[2024-06-11T21:08:20.509-0300] {processor.py:161} INFO - Started process (PID=27151) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:08:20.513-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:08:20.513-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:08:20.513-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:08:20.891-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:08:20.906-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:08:20.906-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:08:20.919-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:08:20.919-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:08:20.938-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.440 seconds
+[2024-06-11T21:08:51.067-0300] {processor.py:161} INFO - Started process (PID=27193) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:08:51.070-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:08:51.071-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:08:51.071-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:08:51.380-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:08:51.391-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:08:51.390-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:08:51.402-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:08:51.401-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:08:51.421-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.357 seconds
+[2024-06-11T21:09:21.538-0300] {processor.py:161} INFO - Started process (PID=27261) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:09:21.538-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:09:21.539-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:09:21.538-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:09:21.888-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:09:21.905-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:09:21.905-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:09:21.922-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:09:21.922-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:09:21.941-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.408 seconds
+[2024-06-11T21:09:52.110-0300] {processor.py:161} INFO - Started process (PID=27325) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:09:52.113-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:09:52.113-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:09:52.113-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:09:52.434-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:09:52.444-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:09:52.444-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:09:52.453-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:09:52.453-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:09:52.472-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.366 seconds
+[2024-06-11T21:10:22.582-0300] {processor.py:161} INFO - Started process (PID=27393) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:10:22.583-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:10:22.584-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:10:22.583-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:10:22.881-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:10:22.889-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:10:22.889-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:10:22.899-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:10:22.898-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:10:22.919-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.343 seconds
+[2024-06-11T21:10:53.050-0300] {processor.py:161} INFO - Started process (PID=27452) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:10:53.053-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:10:53.054-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:10:53.054-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:10:53.374-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:10:53.383-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:10:53.383-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:10:53.393-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:10:53.393-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:10:53.412-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.366 seconds
+[2024-06-11T21:11:23.512-0300] {processor.py:161} INFO - Started process (PID=27537) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:11:23.512-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:11:23.513-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:11:23.513-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:11:23.890-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:11:23.902-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:11:23.902-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:11:23.913-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:11:23.913-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:11:23.931-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.426 seconds
+[2024-06-11T21:11:54.071-0300] {processor.py:161} INFO - Started process (PID=27593) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:11:54.071-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:11:54.072-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:11:54.072-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:11:54.384-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:11:54.399-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:11:54.398-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:11:54.408-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:11:54.408-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:11:54.428-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.361 seconds
+[2024-06-11T21:12:24.531-0300] {processor.py:161} INFO - Started process (PID=27661) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:12:24.534-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:12:24.535-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:12:24.534-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:12:24.852-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:12:24.866-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:12:24.865-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:12:24.880-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:12:24.880-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:12:24.901-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.373 seconds
+[2024-06-11T21:12:54.987-0300] {processor.py:161} INFO - Started process (PID=27725) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:12:54.991-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:12:54.991-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:12:54.991-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:12:55.286-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:12:55.294-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:12:55.294-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:12:55.307-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:12:55.307-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:12:55.325-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.341 seconds
+[2024-06-11T21:13:25.444-0300] {processor.py:161} INFO - Started process (PID=27781) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:13:25.444-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:13:25.444-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:13:25.444-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:13:25.744-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:13:25.755-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:13:25.754-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:13:25.766-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:13:25.766-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:13:25.785-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.345 seconds
+[2024-06-11T21:13:55.911-0300] {processor.py:161} INFO - Started process (PID=27813) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:13:55.912-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:13:55.913-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:13:55.912-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:13:56.263-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:13:56.278-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:13:56.278-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:13:56.292-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:13:56.292-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:13:56.312-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.408 seconds
+[2024-06-11T21:14:26.501-0300] {processor.py:161} INFO - Started process (PID=27877) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:14:26.507-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:14:26.509-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:14:26.508-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:14:26.902-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:14:26.915-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:14:26.913-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:14:26.930-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:14:26.929-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:14:26.953-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.462 seconds
+[2024-06-11T21:14:57.068-0300] {processor.py:161} INFO - Started process (PID=27921) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:14:57.069-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:14:57.070-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:14:57.069-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:14:57.424-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:14:57.436-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:14:57.436-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:14:57.450-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:14:57.449-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:14:57.470-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.408 seconds
+[2024-06-11T21:15:27.641-0300] {processor.py:161} INFO - Started process (PID=27964) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:15:27.642-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:15:27.642-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:15:27.642-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:15:27.937-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:15:27.946-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:15:27.946-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:15:27.956-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:15:27.955-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:15:27.972-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.337 seconds
+[2024-06-11T21:15:58.090-0300] {processor.py:161} INFO - Started process (PID=27997) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:15:58.091-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:15:58.092-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:15:58.092-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:15:58.383-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:15:58.393-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:15:58.393-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:15:58.403-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:15:58.402-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:15:58.421-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.336 seconds
+[2024-06-11T21:16:28.575-0300] {processor.py:161} INFO - Started process (PID=28069) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:16:28.579-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:16:28.579-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:16:28.579-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:16:28.868-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:16:28.878-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:16:28.877-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:16:28.889-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:16:28.889-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:16:28.907-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.341 seconds
+[2024-06-11T21:16:59.026-0300] {processor.py:161} INFO - Started process (PID=28119) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:16:59.026-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:16:59.027-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:16:59.027-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:16:59.341-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:16:59.351-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:16:59.350-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:16:59.361-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:16:59.361-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:16:59.378-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.358 seconds
+[2024-06-11T21:17:29.511-0300] {processor.py:161} INFO - Started process (PID=28156) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:17:29.515-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:17:29.516-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:17:29.515-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:17:29.818-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:17:29.827-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:17:29.827-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:17:29.838-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:17:29.838-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:17:29.855-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.352 seconds
+[2024-06-11T21:17:59.981-0300] {processor.py:161} INFO - Started process (PID=28226) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:17:59.982-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:17:59.982-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:17:59.982-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:18:00.284-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:18:00.297-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:18:00.297-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:18:00.312-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:18:00.312-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:18:00.333-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.359 seconds
+[2024-06-11T21:18:30.447-0300] {processor.py:161} INFO - Started process (PID=28286) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:18:30.448-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:18:30.449-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:18:30.449-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:18:30.797-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:18:30.807-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:18:30.806-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:18:30.816-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:18:30.816-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:18:30.839-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.397 seconds
+[2024-06-11T21:19:00.930-0300] {processor.py:161} INFO - Started process (PID=28344) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:19:00.934-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:19:00.935-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:19:00.934-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:19:01.290-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:19:01.300-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:19:01.299-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:19:01.310-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:19:01.310-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:19:01.327-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.405 seconds
+[2024-06-11T21:19:31.506-0300] {processor.py:161} INFO - Started process (PID=28405) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:19:31.509-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:19:31.510-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:19:31.510-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:19:31.842-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:19:31.853-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:19:31.853-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:19:31.867-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:19:31.867-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:19:31.883-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.381 seconds
+[2024-06-11T21:20:01.977-0300] {processor.py:161} INFO - Started process (PID=28445) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:20:01.978-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:20:01.979-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:20:01.979-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:20:02.292-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:20:02.303-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:20:02.302-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:20:02.317-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:20:02.316-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:20:02.338-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.365 seconds
+[2024-06-11T21:20:32.468-0300] {processor.py:161} INFO - Started process (PID=28497) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:20:32.488-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:20:32.490-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:20:32.489-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:20:32.868-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:20:32.884-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:20:32.884-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:20:32.897-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:20:32.897-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:20:32.920-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.456 seconds
+[2024-06-11T21:21:03.032-0300] {processor.py:161} INFO - Started process (PID=28586) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:21:03.033-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:21:03.033-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:21:03.033-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:21:03.380-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:21:03.391-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:21:03.390-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:21:03.405-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:21:03.405-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:21:03.425-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.396 seconds
+[2024-06-11T21:21:34.308-0300] {processor.py:161} INFO - Started process (PID=28665) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:21:34.311-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:21:34.312-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:21:34.312-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:21:34.610-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:21:34.621-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:21:34.621-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:21:34.635-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:21:34.634-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:21:34.648-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.344 seconds
+[2024-06-11T21:22:04.800-0300] {processor.py:161} INFO - Started process (PID=28726) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:22:04.801-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:22:04.801-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:22:04.801-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:22:05.103-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:22:05.113-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:22:05.112-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:22:05.124-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:22:05.123-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:22:05.142-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.346 seconds
+[2024-06-11T21:22:35.295-0300] {processor.py:161} INFO - Started process (PID=28778) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:22:35.298-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:22:35.299-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:22:35.298-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:22:35.626-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:22:35.636-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:22:35.636-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:22:35.646-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:22:35.646-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:22:35.666-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.378 seconds
+[2024-06-11T21:23:05.825-0300] {processor.py:161} INFO - Started process (PID=28832) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:23:05.825-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:23:05.826-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:23:05.826-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:23:06.124-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:23:06.134-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:23:06.134-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:23:06.144-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:23:06.144-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:23:06.168-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.348 seconds
+[2024-06-11T21:23:36.348-0300] {processor.py:161} INFO - Started process (PID=28884) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:23:36.351-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:23:36.352-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:23:36.352-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:23:36.651-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:23:36.661-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:23:36.660-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:23:36.671-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:23:36.671-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:23:36.689-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.346 seconds
+[2024-06-11T21:24:06.854-0300] {processor.py:161} INFO - Started process (PID=28932) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:24:06.857-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:24:06.857-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:24:06.857-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:24:07.158-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:24:07.171-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:24:07.170-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:24:07.181-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:24:07.181-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:24:07.200-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.350 seconds
+[2024-06-11T21:24:37.354-0300] {processor.py:161} INFO - Started process (PID=28989) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:24:37.355-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:24:37.356-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:24:37.356-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:24:37.674-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:24:37.685-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:24:37.684-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:24:37.693-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:24:37.693-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:24:37.712-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.363 seconds
+[2024-06-11T21:25:07.858-0300] {processor.py:161} INFO - Started process (PID=29032) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:25:07.859-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:25:07.861-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:25:07.860-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:25:08.221-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:25:08.233-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:25:08.232-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:25:08.248-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:25:08.248-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:25:08.263-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.411 seconds
+[2024-06-11T21:25:38.496-0300] {processor.py:161} INFO - Started process (PID=29075) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:25:38.497-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:25:38.498-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:25:38.498-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:25:38.866-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:25:38.879-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:25:38.878-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:25:38.889-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:25:38.889-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:25:38.911-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.425 seconds
+[2024-06-11T21:26:09.125-0300] {processor.py:161} INFO - Started process (PID=29150) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:26:09.125-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:26:09.126-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:26:09.126-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:26:09.499-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:26:09.513-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:26:09.512-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:26:09.529-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:26:09.528-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:26:09.555-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.434 seconds
+[2024-06-11T21:26:39.738-0300] {processor.py:161} INFO - Started process (PID=29192) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:26:39.741-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:26:39.742-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:26:39.741-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:26:40.144-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:26:40.155-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:26:40.154-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:26:40.164-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:26:40.164-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:26:40.185-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.451 seconds
+[2024-06-11T21:27:10.349-0300] {processor.py:161} INFO - Started process (PID=29227) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:27:10.352-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:27:10.353-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:27:10.352-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:27:10.709-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:27:10.720-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:27:10.720-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:27:10.734-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:27:10.734-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:27:10.752-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.407 seconds
+[2024-06-11T21:27:40.994-0300] {processor.py:161} INFO - Started process (PID=29266) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:27:40.995-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:27:40.995-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:27:40.995-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:27:41.365-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:27:41.375-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:27:41.375-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:27:41.395-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:27:41.395-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:27:41.420-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.432 seconds
+[2024-06-11T21:28:11.617-0300] {processor.py:161} INFO - Started process (PID=29303) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:28:11.621-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:28:11.621-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:28:11.621-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:28:12.061-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:28:12.074-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:28:12.074-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:28:12.085-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:28:12.084-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:28:12.107-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.495 seconds
+[2024-06-11T21:28:42.220-0300] {processor.py:161} INFO - Started process (PID=29334) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:28:42.222-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:28:42.223-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:28:42.222-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:28:42.568-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:28:42.582-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:28:42.582-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:28:42.593-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:28:42.592-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:28:42.620-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.409 seconds
+[2024-06-11T21:29:12.840-0300] {processor.py:161} INFO - Started process (PID=29383) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:29:12.843-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:29:12.844-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:29:12.844-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:29:13.203-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:29:13.220-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:29:13.220-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:29:13.233-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:29:13.233-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:29:13.251-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.416 seconds
+[2024-06-11T21:29:43.513-0300] {processor.py:161} INFO - Started process (PID=29436) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:29:43.514-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:29:43.515-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:29:43.514-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:29:43.840-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:29:43.852-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:29:43.852-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:29:43.865-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:29:43.865-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:29:43.882-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.375 seconds
+[2024-06-11T21:30:14.021-0300] {processor.py:161} INFO - Started process (PID=29525) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:30:14.039-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:30:14.040-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:30:14.040-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:30:14.355-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:30:14.367-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:30:14.366-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:30:14.378-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:30:14.378-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:30:14.392-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.375 seconds
+[2024-06-11T21:30:44.502-0300] {processor.py:161} INFO - Started process (PID=29586) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:30:44.505-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:30:44.506-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:30:44.506-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:30:44.851-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:30:44.862-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:30:44.862-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:30:44.873-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:30:44.873-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:30:44.891-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.395 seconds
+[2024-06-11T21:31:14.980-0300] {processor.py:161} INFO - Started process (PID=29691) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:31:14.983-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:31:14.984-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:31:14.984-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:31:15.287-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:31:15.296-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:31:15.296-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:31:15.307-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:31:15.307-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:31:15.327-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.350 seconds
+[2024-06-11T21:31:45.459-0300] {processor.py:161} INFO - Started process (PID=29784) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:31:45.459-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:31:45.460-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:31:45.460-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:31:45.853-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:31:45.866-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:31:45.866-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:31:45.886-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:31:45.886-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:31:45.903-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.450 seconds
+[2024-06-11T21:32:16.673-0300] {processor.py:161} INFO - Started process (PID=29840) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:32:16.692-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:32:16.692-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:32:16.692-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:32:17.000-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:32:17.010-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:32:17.009-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:32:17.023-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:32:17.023-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:32:17.039-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.369 seconds
+[2024-06-11T21:32:48.007-0300] {processor.py:161} INFO - Started process (PID=29885) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:32:48.016-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:32:48.017-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:32:48.017-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:32:48.369-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:32:48.386-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:32:48.386-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:32:48.405-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:32:48.405-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:32:48.426-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.428 seconds
+[2024-06-11T21:33:18.750-0300] {processor.py:161} INFO - Started process (PID=29946) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:33:18.769-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:33:18.770-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:33:18.770-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:33:19.062-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:33:19.072-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:33:19.071-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:33:19.082-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:33:19.082-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:33:19.099-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.355 seconds
+[2024-06-11T21:33:49.254-0300] {processor.py:161} INFO - Started process (PID=29983) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:33:49.255-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:33:49.256-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:33:49.255-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:33:49.622-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:33:49.633-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:33:49.632-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:33:49.652-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:33:49.652-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:33:49.671-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.423 seconds
+[2024-06-11T21:34:19.913-0300] {processor.py:161} INFO - Started process (PID=30022) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:34:19.914-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:34:19.916-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:34:19.914-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:34:20.296-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:34:20.309-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:34:20.309-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:34:20.323-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:34:20.322-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:34:20.353-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.446 seconds
+[2024-06-11T21:34:51.202-0300] {processor.py:161} INFO - Started process (PID=30066) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:34:51.205-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:34:51.206-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:34:51.206-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:34:51.635-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:34:51.646-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:34:51.646-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:34:51.662-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:34:51.662-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:34:51.679-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.480 seconds
+[2024-06-11T21:35:21.806-0300] {processor.py:161} INFO - Started process (PID=30149) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:35:21.807-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:35:21.807-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:35:21.807-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:35:22.148-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:35:22.158-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:35:22.158-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:35:22.171-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:35:22.171-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:35:22.215-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.413 seconds
+[2024-06-11T21:35:52.410-0300] {processor.py:161} INFO - Started process (PID=30210) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:35:52.411-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:35:52.412-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:35:52.412-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:35:52.714-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:35:52.724-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:35:52.724-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:35:52.737-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:35:52.736-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:35:52.774-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.367 seconds
+[2024-06-11T21:36:22.908-0300] {processor.py:161} INFO - Started process (PID=30295) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:36:22.908-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:36:22.909-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:36:22.909-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:36:23.218-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:36:23.227-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:36:23.227-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:36:23.238-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:36:23.238-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:36:23.252-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.349 seconds
+[2024-06-11T21:36:53.422-0300] {processor.py:161} INFO - Started process (PID=30372) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:36:53.425-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:36:53.425-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:36:53.425-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:36:53.727-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:36:53.736-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:36:53.736-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:36:53.750-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:36:53.749-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:36:53.767-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.349 seconds
+[2024-06-11T21:37:23.961-0300] {processor.py:161} INFO - Started process (PID=30454) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:37:23.964-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:37:23.964-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:37:23.964-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:37:24.281-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:37:24.292-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:37:24.291-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:37:24.302-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:37:24.302-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:37:24.323-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.367 seconds
+[2024-06-11T21:37:54.452-0300] {processor.py:161} INFO - Started process (PID=30534) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:37:54.453-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:37:54.453-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:37:54.453-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:37:54.754-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:37:54.765-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:37:54.764-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:37:54.776-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:37:54.776-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:37:54.796-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.348 seconds
+[2024-06-11T21:38:24.943-0300] {processor.py:161} INFO - Started process (PID=30612) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:38:24.947-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:38:24.948-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:38:24.947-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:38:25.269-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:38:25.280-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:38:25.280-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:38:25.291-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:38:25.291-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:38:25.309-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.370 seconds
+[2024-06-11T21:38:55.465-0300] {processor.py:161} INFO - Started process (PID=30667) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:38:55.466-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:38:55.466-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:38:55.466-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:38:55.772-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:38:55.783-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:38:55.782-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:38:55.793-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:38:55.793-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:38:55.811-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.350 seconds
+[2024-06-11T21:39:25.983-0300] {processor.py:161} INFO - Started process (PID=30726) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:39:25.986-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:39:25.987-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:39:25.986-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:39:26.315-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:39:26.326-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:39:26.326-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:39:26.340-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:39:26.340-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:39:26.357-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.378 seconds
+[2024-06-11T21:39:56.486-0300] {processor.py:161} INFO - Started process (PID=30782) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:39:56.487-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:39:56.487-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:39:56.487-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:39:56.792-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:39:56.802-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:39:56.801-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:39:56.813-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:39:56.812-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:39:56.832-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.350 seconds
+[2024-06-11T21:40:27.011-0300] {processor.py:161} INFO - Started process (PID=30836) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:40:27.014-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:40:27.014-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:40:27.014-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:40:27.305-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:40:27.315-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:40:27.314-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:40:27.325-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:40:27.325-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:40:27.342-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.336 seconds
+[2024-06-11T21:40:57.549-0300] {processor.py:161} INFO - Started process (PID=30905) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:40:57.550-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:40:57.550-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:40:57.550-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:40:57.863-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:40:57.873-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:40:57.873-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:40:57.885-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:40:57.885-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:40:57.905-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.360 seconds
+[2024-06-11T21:41:28.044-0300] {processor.py:161} INFO - Started process (PID=30986) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:41:28.047-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:41:28.048-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:41:28.048-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:41:28.361-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:41:28.374-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:41:28.373-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:41:28.384-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:41:28.384-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:41:28.398-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.357 seconds
+[2024-06-11T21:41:58.535-0300] {processor.py:161} INFO - Started process (PID=31052) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:41:58.535-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:41:58.536-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:41:58.536-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:41:58.846-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:41:58.863-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:41:58.863-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:41:58.888-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:41:58.887-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:41:58.904-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.373 seconds
+[2024-06-11T21:42:29.181-0300] {processor.py:161} INFO - Started process (PID=31138) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:42:29.184-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:42:29.185-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:42:29.185-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:42:29.496-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:42:29.504-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:42:29.504-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:42:29.515-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:42:29.515-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:42:29.562-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.388 seconds
+[2024-06-11T21:43:00.521-0300] {processor.py:161} INFO - Started process (PID=31199) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:43:00.524-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:43:00.525-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:43:00.525-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:43:00.818-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:43:00.827-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:43:00.826-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:43:00.837-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:43:00.837-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:43:00.856-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.338 seconds
+[2024-06-11T21:43:31.192-0300] {processor.py:161} INFO - Started process (PID=31270) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:43:31.196-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:43:31.196-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:43:31.196-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:43:31.500-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:43:31.511-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:43:31.511-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:43:31.522-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:43:31.521-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:43:31.540-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.352 seconds
+[2024-06-11T21:44:01.977-0300] {processor.py:161} INFO - Started process (PID=31333) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:44:01.977-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:44:01.978-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:44:01.978-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:44:02.323-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:44:02.333-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:44:02.333-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:44:02.344-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:44:02.344-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:44:02.367-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.394 seconds
+[2024-06-11T21:44:32.943-0300] {processor.py:161} INFO - Started process (PID=31397) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:44:32.946-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:44:32.947-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:44:32.947-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:44:33.263-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:44:33.275-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:44:33.274-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:44:33.286-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:44:33.285-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:44:33.305-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.370 seconds
+[2024-06-11T21:45:03.968-0300] {processor.py:161} INFO - Started process (PID=31467) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:45:03.968-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:45:03.969-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:45:03.969-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:45:04.384-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:45:04.408-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:45:04.407-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:45:04.425-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:45:04.424-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:45:04.443-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.479 seconds
+[2024-06-11T21:45:35.144-0300] {processor.py:161} INFO - Started process (PID=31523) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:45:35.147-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:45:35.147-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:45:35.147-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:45:35.495-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:45:35.507-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:45:35.507-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:45:35.516-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:45:35.516-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:45:35.537-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.398 seconds
+[2024-06-11T21:46:06.303-0300] {processor.py:161} INFO - Started process (PID=31603) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:46:06.304-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:46:06.305-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:46:06.304-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:46:06.680-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:46:06.692-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:46:06.692-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:46:06.710-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:46:06.709-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:46:06.736-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.439 seconds
+[2024-06-11T21:46:37.416-0300] {processor.py:161} INFO - Started process (PID=31653) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:46:37.420-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:46:37.420-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:46:37.420-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:46:37.808-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:46:37.823-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:46:37.822-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:46:37.836-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:46:37.836-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:46:37.854-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.444 seconds
+[2024-06-11T21:47:08.521-0300] {processor.py:161} INFO - Started process (PID=31710) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:47:08.525-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:47:08.528-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:47:08.527-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:47:08.911-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:47:08.922-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:47:08.921-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:47:08.940-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:47:08.940-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:47:08.957-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.440 seconds
+[2024-06-11T21:47:39.105-0300] {processor.py:161} INFO - Started process (PID=31812) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:47:39.105-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:47:39.106-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:47:39.105-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:47:39.432-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:47:39.442-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:47:39.442-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:47:39.456-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:47:39.456-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:47:39.470-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.369 seconds
+[2024-06-11T21:48:09.562-0300] {processor.py:161} INFO - Started process (PID=31913) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:48:09.565-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:48:09.566-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:48:09.566-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:48:09.863-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:48:09.873-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:48:09.872-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:48:09.884-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:48:09.884-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:48:09.902-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.343 seconds
+[2024-06-11T21:48:40.021-0300] {processor.py:161} INFO - Started process (PID=31969) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:48:40.024-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:48:40.025-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:48:40.024-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:48:40.395-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:48:40.409-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:48:40.408-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:48:40.426-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:48:40.426-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:48:40.450-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.433 seconds
+[2024-06-11T21:49:12.935-0300] {processor.py:161} INFO - Started process (PID=32079) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:49:12.936-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:49:12.937-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:49:12.937-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:49:13.395-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:49:13.408-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:49:13.408-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:49:13.425-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:49:13.424-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:49:13.448-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.516 seconds
+[2024-06-11T21:49:44.178-0300] {processor.py:161} INFO - Started process (PID=32131) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:49:44.179-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:49:44.180-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:49:44.180-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:49:44.591-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:49:44.604-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:49:44.604-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:49:44.615-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:49:44.615-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:49:44.634-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.461 seconds
+[2024-06-11T21:50:15.004-0300] {processor.py:161} INFO - Started process (PID=32183) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:50:15.007-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:50:15.008-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:50:15.008-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:50:15.330-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:50:15.342-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:50:15.341-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:50:15.354-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:50:15.354-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:50:15.375-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.376 seconds
+[2024-06-11T21:50:45.650-0300] {processor.py:161} INFO - Started process (PID=32235) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:50:45.650-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:50:45.651-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:50:45.650-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:50:45.974-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:50:45.986-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:50:45.985-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:50:45.998-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:50:45.998-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:50:46.017-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.371 seconds
+[2024-06-11T21:51:16.065-0300] {processor.py:161} INFO - Started process (PID=32321) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:51:16.069-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:51:16.070-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:51:16.070-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:51:16.413-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:51:16.425-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:51:16.425-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:51:16.437-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:51:16.437-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:51:16.508-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.450 seconds
+[2024-06-11T21:51:47.400-0300] {processor.py:161} INFO - Started process (PID=32390) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:51:47.402-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:51:47.404-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:51:47.403-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:51:47.820-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:51:47.836-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:51:47.835-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:51:47.849-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:51:47.849-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:51:47.873-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.481 seconds
+[2024-06-11T21:52:19.576-0300] {processor.py:161} INFO - Started process (PID=32494) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:52:19.579-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:52:19.580-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:52:19.580-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:52:19.930-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:52:19.943-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:52:19.943-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:52:19.953-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:52:19.953-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:52:19.973-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.402 seconds
+[2024-06-11T21:52:50.316-0300] {processor.py:161} INFO - Started process (PID=32564) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:52:50.317-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:52:50.317-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:52:50.317-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:52:50.640-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:52:50.651-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:52:50.651-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:52:50.663-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:52:50.663-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:52:50.682-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.369 seconds
+[2024-06-11T21:53:20.950-0300] {processor.py:161} INFO - Started process (PID=32627) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:53:20.953-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:53:20.954-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:53:20.954-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:53:21.297-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:53:21.308-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:53:21.308-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:53:21.320-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:53:21.320-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:53:21.337-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.391 seconds
+[2024-06-11T21:53:51.582-0300] {processor.py:161} INFO - Started process (PID=32695) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:53:51.586-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:53:51.587-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:53:51.587-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:53:51.983-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:53:51.995-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:53:51.995-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:53:52.008-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:53:52.008-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:53:52.022-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.444 seconds
+[2024-06-11T21:54:22.841-0300] {processor.py:161} INFO - Started process (PID=32793) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:54:22.844-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:54:22.845-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:54:22.844-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:54:23.179-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:54:23.191-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:54:23.191-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:54:23.204-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:54:23.203-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:54:23.222-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.386 seconds
+[2024-06-11T21:54:53.481-0300] {processor.py:161} INFO - Started process (PID=32876) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:54:53.486-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:54:53.487-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:54:53.486-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:54:53.969-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:54:53.996-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:54:53.995-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:54:54.023-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:54:54.022-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:54:54.060-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.586 seconds
+[2024-06-11T21:55:25.001-0300] {processor.py:161} INFO - Started process (PID=32962) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:55:25.002-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:55:25.002-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:55:25.002-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:55:25.325-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:55:25.338-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:55:25.337-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:55:25.351-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:55:25.351-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:55:25.371-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.377 seconds
+[2024-06-11T21:55:55.635-0300] {processor.py:161} INFO - Started process (PID=33026) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:55:55.637-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:55:55.638-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:55:55.637-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:55:55.995-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:55:56.007-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:55:56.007-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:55:56.022-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:55:56.022-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:55:56.043-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.411 seconds
+[2024-06-11T21:56:26.262-0300] {processor.py:161} INFO - Started process (PID=33115) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:56:26.265-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:56:26.266-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:56:26.265-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:56:26.630-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:56:26.645-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:56:26.645-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:56:26.657-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:56:26.656-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:56:26.678-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.421 seconds
+[2024-06-11T21:56:56.896-0300] {processor.py:161} INFO - Started process (PID=33181) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:56:56.899-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:56:56.900-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:56:56.900-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:56:57.240-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:56:57.252-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:56:57.252-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:56:57.265-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:56:57.265-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:56:57.285-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.392 seconds
+[2024-06-11T21:57:27.386-0300] {processor.py:161} INFO - Started process (PID=33254) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:57:27.386-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:57:27.387-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:57:27.387-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:57:27.717-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:57:27.730-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:57:27.730-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:57:27.744-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:57:27.743-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:57:27.762-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.380 seconds
+[2024-06-11T21:57:57.869-0300] {processor.py:161} INFO - Started process (PID=33309) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:57:57.873-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:57:57.873-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:57:57.873-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:57:58.224-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:57:58.236-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:57:58.235-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:57:58.249-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:57:58.249-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:57:58.264-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.399 seconds
+[2024-06-11T21:58:28.377-0300] {processor.py:161} INFO - Started process (PID=33363) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:58:28.378-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:58:28.378-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:58:28.378-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:58:28.715-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:58:28.729-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:58:28.729-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:58:28.741-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:58:28.740-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:58:28.761-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.388 seconds
+[2024-06-11T21:58:58.833-0300] {processor.py:161} INFO - Started process (PID=33438) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:58:58.834-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:58:58.834-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:58:58.834-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:58:59.153-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:58:59.165-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:58:59.164-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:58:59.176-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:58:59.176-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:58:59.195-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.366 seconds
+[2024-06-11T21:59:29.339-0300] {processor.py:161} INFO - Started process (PID=33491) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:59:29.344-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T21:59:29.345-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:59:29.345-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:59:29.888-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T21:59:29.901-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:59:29.900-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T21:59:29.914-0300] {logging_mixin.py:188} INFO - [2024-06-11T21:59:29.914-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T21:59:29.929-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.602 seconds
+[2024-06-11T22:00:00.129-0300] {processor.py:161} INFO - Started process (PID=33567) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:00:00.130-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T22:00:00.131-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:00:00.131-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:00:00.612-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:00:00.629-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:00:00.628-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T22:00:00.643-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:00:00.643-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T22:00:00.670-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.549 seconds
+[2024-06-11T22:00:30.776-0300] {processor.py:161} INFO - Started process (PID=33649) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:00:30.779-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T22:00:30.780-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:00:30.780-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:00:31.115-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:00:31.127-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:00:31.127-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T22:00:31.140-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:00:31.139-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T22:00:31.158-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.385 seconds
+[2024-06-11T22:01:02.039-0300] {processor.py:161} INFO - Started process (PID=33705) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:01:02.043-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T22:01:02.044-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:01:02.044-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:01:02.452-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:01:02.462-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:01:02.462-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T22:01:02.475-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:01:02.475-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T22:01:02.493-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.462 seconds
+[2024-06-11T22:01:34.212-0300] {processor.py:161} INFO - Started process (PID=33812) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:01:34.215-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T22:01:34.216-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:01:34.216-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:01:34.647-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:01:34.661-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:01:34.661-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T22:01:34.674-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:01:34.673-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T22:01:34.693-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.484 seconds
+[2024-06-11T22:02:04.773-0300] {processor.py:161} INFO - Started process (PID=33880) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:02:04.774-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T22:02:04.775-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:02:04.775-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:02:05.102-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:02:05.113-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:02:05.113-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T22:02:05.125-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:02:05.125-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T22:02:05.144-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.377 seconds
+[2024-06-11T22:02:36.321-0300] {processor.py:161} INFO - Started process (PID=33959) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:02:36.322-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T22:02:36.323-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:02:36.323-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:02:36.665-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:02:36.676-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:02:36.676-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T22:02:36.693-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:02:36.693-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T22:02:36.713-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.396 seconds
+[2024-06-11T22:03:07.607-0300] {processor.py:161} INFO - Started process (PID=34035) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:03:07.608-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T22:03:07.609-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:03:07.609-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:03:07.972-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:03:07.988-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:03:07.987-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T22:03:08.001-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:03:08.001-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T22:03:08.028-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.426 seconds
+[2024-06-11T22:03:38.969-0300] {processor.py:161} INFO - Started process (PID=34109) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:03:38.973-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T22:03:38.974-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:03:38.974-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:03:39.338-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:03:39.353-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:03:39.353-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T22:03:39.367-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:03:39.366-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T22:03:39.390-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.427 seconds
+[2024-06-11T22:04:10.201-0300] {processor.py:161} INFO - Started process (PID=34186) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:04:10.205-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T22:04:10.205-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:04:10.205-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:04:10.645-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:04:10.658-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:04:10.658-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T22:04:10.670-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:04:10.670-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T22:04:10.692-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.495 seconds
+[2024-06-11T22:04:40.751-0300] {processor.py:161} INFO - Started process (PID=34258) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:04:40.754-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T22:04:40.755-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:04:40.755-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:04:41.209-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:04:41.219-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:04:41.219-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T22:04:41.234-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:04:41.234-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T22:04:41.252-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.505 seconds
+[2024-06-11T22:05:11.383-0300] {processor.py:161} INFO - Started process (PID=34336) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:05:11.387-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T22:05:11.388-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:05:11.387-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:05:11.728-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:05:11.739-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:05:11.738-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T22:05:11.751-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:05:11.750-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T22:05:11.770-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.392 seconds
+[2024-06-11T22:05:42.455-0300] {processor.py:161} INFO - Started process (PID=34426) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:05:42.456-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T22:05:42.457-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:05:42.456-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:05:42.844-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:05:42.861-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:05:42.861-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T22:05:42.877-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:05:42.876-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T22:05:42.906-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.460 seconds
+[2024-06-11T22:06:13.719-0300] {processor.py:161} INFO - Started process (PID=35501) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:06:13.723-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T22:06:13.724-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:06:13.723-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:06:14.046-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:06:14.058-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:06:14.058-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T22:06:14.071-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:06:14.071-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T22:06:14.091-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.376 seconds
+[2024-06-11T22:06:45.000-0300] {processor.py:161} INFO - Started process (PID=35570) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:06:45.003-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T22:06:45.004-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:06:45.004-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:06:45.324-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:06:45.336-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:06:45.336-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T22:06:45.346-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:06:45.346-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T22:06:45.366-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.371 seconds
+[2024-06-11T22:07:16.136-0300] {processor.py:161} INFO - Started process (PID=35648) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:07:16.138-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T22:07:16.139-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:07:16.139-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:07:16.601-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:07:16.613-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:07:16.613-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T22:07:16.629-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:07:16.629-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T22:07:16.647-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.518 seconds
+[2024-06-11T22:07:46.777-0300] {processor.py:161} INFO - Started process (PID=35766) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:07:46.780-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T22:07:46.781-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:07:46.781-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:07:47.107-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:07:47.122-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:07:47.122-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T22:07:47.137-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:07:47.137-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T22:07:47.158-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.389 seconds
+[2024-06-11T22:08:18.056-0300] {processor.py:161} INFO - Started process (PID=35820) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:08:18.057-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T22:08:18.057-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:08:18.057-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:08:18.374-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:08:18.386-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:08:18.385-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T22:08:18.396-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:08:18.396-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T22:08:18.415-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.366 seconds
+[2024-06-11T22:08:49.309-0300] {processor.py:161} INFO - Started process (PID=35891) to work on /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:08:49.311-0300] {processor.py:830} INFO - Processing file /home/pedro/airflow/dags/dag_load_to_postegresql.py for tasks to queue
+[2024-06-11T22:08:49.312-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:08:49.311-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:08:49.735-0300] {processor.py:840} INFO - DAG(s) 'load_to_postgres' retrieved from /home/pedro/airflow/dags/dag_load_to_postegresql.py
+[2024-06-11T22:08:49.749-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:08:49.748-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T22:08:49.766-0300] {logging_mixin.py:188} INFO - [2024-06-11T22:08:49.766-0300] {dag.py:3954} INFO - Setting next_dagrun for load_to_postgres to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-11T22:08:49.788-0300] {processor.py:183} INFO - Processing /home/pedro/airflow/dags/dag_load_to_postegresql.py took 0.484 seconds

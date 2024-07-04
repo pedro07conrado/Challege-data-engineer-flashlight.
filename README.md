@@ -5,8 +5,7 @@
 ## Visão Geral
 Este projeto foi desenvolvido como parte do desafio de código da Tech Indicium. O objetivo é criar um pipeline de dados usando Apache [Airflow]([url](https://airflow.apache.org/)) para extrair dados de duas fontes distintas, armazenando os dados no disco local e, em seguida, gravando em um banco de dados.
 
-![diagrama_embulk_meltano](https://github.com/pedro07conrado/challege-data-engineer-flashlight/assets/113401454/d8583d30-ef24-468f-a2ff-df237d688085)
-
+![diagrama_embulk_meltano (1)](https://github.com/pedro07conrado/challege-data-engineer-flashlight./assets/113401454/fd6d1f64-0cfe-4c59-a356-7d78c2469ff1)
 
 
 

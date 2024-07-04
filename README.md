@@ -11,6 +11,7 @@ Este projeto foi desenvolvido como parte do desafio de código da Tech Indicium.
 
 
 
+
 ## Tecnologias Utilizadas
 - Apache Airflow 2.9.1. 
 - Python 3.10.12. 

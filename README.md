@@ -12,6 +12,12 @@ Este projeto foi desenvolvido como parte do desafio de código da Tech Indicium.
 
 
 ## Tecnologias Utilizadas
+<p align="center">
+   <img src="https://raw.githubusercontent.com/github/explore/main/topics/python/python.png" alt="Python" width="60" height="60"/> 
+   <img src="https://raw.githubusercontent.com/github/explore/main/topics/postgresql/postgresql.png" alt="PostgreSQL" width="60" height="60"/>
+   <img src="https://upload.wikimedia.org/wikipedia/commons/d/de/AirflowLogo.png" alt="Airflow" width="85" height="60"/> 
+</p>
+
 - Apache Airflow 2.9.1. 
 - Python 3.10.12. 
 - PostgreSQL. 

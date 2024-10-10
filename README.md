@@ -91,9 +91,49 @@ airflow webserver -p 8080
 Então no seu navegador acesse [localhost](http://localhost:8080/home) para visualizar o seu pipeline
 
 ## Problemas e Soluções
-### Problemas com PostgreSQL: 
-Tive problemas para executar o PostgreSQL usando o dual boot Linux Mint. \
-O vídeo [how to install PostgreSQL on linux mint](https://www.youtube.com/watch?v=BykmBY-GgvE&t=1s) foi extremamente útil para resolver esses problemas.
 
-### Problemas com Airflow:
-Enfrentei problemas ao executar o Airflow devido a conflitos com o PID. Este problema foi solucionado utilizando o comando `kill <pid>` para finalizar o processo em conflito.
+### Problema: Configuração do PostgreSQL no Linux Mint
+
+> [!IMPORTANT]
+> Tive problemas para executar o PostgreSQL usando o dual boot no Linux Mint. A configuração padrão não funcionou conforme esperado.
+
+**Solução:**
+> <details><summary>Como resolvi</summary>
+> 
+> O vídeo [How to Install PostgreSQL on Linux Mint](https://www.youtube.com/watch?v=BykmBY-GgvE&t=1s) foi extremamente útil para resolver esses problemas. 
+> Seguindo os passos, consegui instalar e configurar corretamente o PostgreSQL. 
+> 
+> - Certifique-se de que todos os pacotes estejam atualizados:
+> 
+> ```bash
+> sudo apt update && sudo apt upgrade
+> ```
+> 
+> - Após isso, siga o tutorial do vídeo para os detalhes da instalação.
+> </details>
+
+---
+
+### Problema: Conflito de PID no Airflow
+
+> [!IMPORTANT]
+> Ao tentar iniciar o Airflow, enfrentei conflitos com o PID, o que impedia sua execução correta.
+
+**Solução:**
+> <details><summary>Como resolvi</summary>
+> 
+> Identifiquei o processo em conflito utilizando o comando:
+> 
+> ```bash
+> ps aux | grep airflow
+> ```
+> 
+> Depois finalizei o processo em conflito com:
+> 
+> ```bash
+> kill <pid>
+> ```
+> 
+> Onde `<pid>` deve ser substituído pelo número do processo listado.
+> 
+> </details>

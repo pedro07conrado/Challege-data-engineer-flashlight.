@@ -11,7 +11,7 @@ Este projeto foi desenvolvido como parte do desafio de código da Tech Indicium.
 
 
 
-## Tecnologias Utilizadas
+# Tecnologias Utilizadas
 <p align="center">
    <img src="https://raw.githubusercontent.com/github/explore/main/topics/python/python.png" alt="Python" width="70" height="70"/> 
    <img src="https://raw.githubusercontent.com/github/explore/main/topics/postgresql/postgresql.png" alt="PostgreSQL" width="60" height="60"/>
@@ -45,7 +45,7 @@ Salva os dados extraídos como arquivos CSV no diretório airflow/data/postgres.
 Lê os dados extraídos do PostgreSQL e do arquivo CSV. \
 Realiza transformações nos dados, como a junção de tabelas.
 
-## Instalação
+# Instalação
 #### 1. Clone o repositório:
 git clone:
 ```

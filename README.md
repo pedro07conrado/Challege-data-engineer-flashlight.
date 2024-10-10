@@ -98,19 +98,16 @@ Então no seu navegador acesse [localhost](http://localhost:8080/home) para visu
 > Tive problemas para executar o PostgreSQL usando o dual boot no Linux Mint. A configuração padrão não funcionou conforme esperado.
 
 **Solução:**
-> <details><summary>Como resolvi</summary>
-> 
 > O vídeo [How to Install PostgreSQL on Linux Mint](https://www.youtube.com/watch?v=BykmBY-GgvE&t=1s) foi extremamente útil para resolver esses problemas. 
 > Seguindo os passos, consegui instalar e configurar corretamente o PostgreSQL. 
-> 
+>
 > - Certifique-se de que todos os pacotes estejam atualizados:
-> 
+>
 > ```bash
 > sudo apt update && sudo apt upgrade
 > ```
-> 
+>
 > - Após isso, siga o tutorial do vídeo para os detalhes da instalação.
-> </details>
 
 ---
 
@@ -120,8 +117,6 @@ Então no seu navegador acesse [localhost](http://localhost:8080/home) para visu
 > Ao tentar iniciar o Airflow, enfrentei conflitos com o PID, o que impedia sua execução correta.
 
 **Solução:**
-> <details><summary>Como resolvi</summary>
-> 
 > Identifiquei o processo em conflito utilizando o comando:
 > 
 > ```bash
@@ -135,5 +130,3 @@ Então no seu navegador acesse [localhost](http://localhost:8080/home) para visu
 > ```
 > 
 > Onde `<pid>` deve ser substituído pelo número do processo listado.
-> 
-> </details>

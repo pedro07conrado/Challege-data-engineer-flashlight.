@@ -90,7 +90,7 @@ airflow webserver -p 8080
 ```
 Então no seu navegador acesse [localhost](http://localhost:8080/home) para visualizar o seu pipeline
 
-## Problemas e Soluções
+# Problemas e Soluções
 
 ### Problema: Configuração do PostgreSQL no Linux Mint
 
